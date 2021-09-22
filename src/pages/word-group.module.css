@@ -3,4 +3,11 @@
     flex-direction: column;
     width: calc(90%);
     padding: 24px 8px;
+    margin: 0 5%;
+}
+.wordlist_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 32px 0 0 0;
 }
