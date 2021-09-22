@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(201, 238, 250);
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 0 0 16px 0;
+    box-shadow: 0px 0px 8px 2px rgba(34, 60, 80, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+.container:hover {
+    box-shadow: 0px 0px 8px 6px rgba(34, 60, 80, 0.4);
+}
+.info {
+    display: flex;
+    width: 100%;
+}
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 0 16px 0 0;
+}
+.label {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+}
+.label:hover {
+    text-decoration: underline;
+}
+.group_button {
+    background-image: url('../../images/network.svg');
+    background-size: 20px 17px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0; 
+    transform: rotate(90deg);
+    margin: 0 16px 0 0;
+    transition: all 0.1s ease-in-out;
+    border-radius: 50%;
+}
+.flipped {
+    transform: rotate(270deg)
+}
+.group_button:hover {
+    background-color: rgba(0,0,0, 0.1)
+}
+.stats_item {
+    margin: 0;
+    width: 130px;
+    display: flex;
+    justify-content: start;
+}
+.stats {
+    display: flex;
+    margin: 0 0 0 auto;
+}
