@@ -1,6 +1,7 @@
 import styles from './phrase-statistics.module.css';
 
 export default function KeywordStatistics({ data }) {
+ // console.log(item);
   return (
     <div className={styles.container}>
       <p className={styles.item}>
