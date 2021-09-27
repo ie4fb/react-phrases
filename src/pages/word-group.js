@@ -20,6 +20,7 @@ export default function WordGroup() {
   const [options, setOptions] = useState([]);
 
   useEffect(() => {
+    console.log(lists)
     let options = [];
     if (lists) {
       Object.keys(lists).forEach((key) => {

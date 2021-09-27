@@ -1,6 +1,6 @@
 export const data = {
-  id: 13,
-  name: '\u0413\u0440\u0443\u043f\u043f\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e \u0441\u043b\u043e\u0432\u0430\u043c Sun, 19 Sep 2021 09:49:47 GMT',
+  id: 31,
+  name: '\u0413\u0440\u0443\u043f\u043f\u0438\u0440\u043e\u0432\u043a\u0430 \u043f\u043e \u0441\u043b\u043e\u0432\u0430\u043c Mon, 27 Sep 2021 08:57:11 GMT',
   body: {
     general: {
       '\u0421\u041a\u041e\u0420\u041e\u0412\u0410\u0420\u041a\u0410': {
@@ -34,19 +34,10 @@ export const data = {
               {
                 '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430':
                   {
-                    impressions: '1510',
-                    clicks: '100',
-                    spent: '1234.09',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430':
-                  {
-                    impressions: '816',
-                    clicks: '43',
-                    spent: '832.88',
-                    conversions: '1',
+                    impressions: 2326,
+                    clicks: 143,
+                    spent: 2066.97,
+                    conversions: 1,
                   },
               },
               {
@@ -55,11 +46,11 @@ export const data = {
                     impressions: '419',
                     clicks: '42',
                     spent: '503.72',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
-            phraseCount: 5,
+            phraseCount: 4,
           },
           '!\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443': {
             fileFields: {
@@ -102,7 +93,7 @@ export const data = {
                     impressions: '87',
                     clicks: '15',
                     spent: '190.18',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -111,7 +102,7 @@ export const data = {
                     impressions: '63',
                     clicks: '13',
                     spent: '169.56',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -120,7 +111,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -140,7 +131,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -149,7 +140,7 @@ export const data = {
                     impressions: '131',
                     clicks: '13',
                     spent: '121.01',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -158,7 +149,7 @@ export const data = {
                     impressions: '128',
                     clicks: '13',
                     spent: '99.61',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -200,14 +191,6 @@ export const data = {
               },
           },
           {
-            '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430': {
-              impressions: '1510',
-              clicks: '100',
-              spent: '1234.09',
-              conversions: '-',
-            },
-          },
-          {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443':
               {
                 impressions: '857',
@@ -227,10 +210,10 @@ export const data = {
           },
           {
             '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430': {
-              impressions: '816',
-              clicks: '43',
-              spent: '832.88',
-              conversions: '1',
+              impressions: 2326,
+              clicks: 143,
+              spent: 2066.97,
+              conversions: 1,
             },
           },
           {
@@ -239,7 +222,7 @@ export const data = {
                 impressions: '419',
                 clicks: '42',
                 spent: '503.72',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -257,7 +240,7 @@ export const data = {
                 impressions: '87',
                 clicks: '15',
                 spent: '190.18',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -266,7 +249,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -274,7 +257,7 @@ export const data = {
               impressions: '131',
               clicks: '13',
               spent: '121.01',
-              conversions: '-',
+              conversions: '0',
             },
           },
           {
@@ -283,7 +266,7 @@ export const data = {
                 impressions: '128',
                 clicks: '13',
                 spent: '99.61',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -292,7 +275,7 @@ export const data = {
                 impressions: '63',
                 clicks: '13',
                 spent: '169.56',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -301,7 +284,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -314,16 +297,16 @@ export const data = {
               },
           },
         ],
-        phraseCount: 15,
+        phraseCount: 14,
       },
       '\u041a\u0423\u041f\u0418\u0422\u042c': {
         wordsInPhrase: {
           '!\u043a\u0443\u043f\u0438\u0442\u044c': {
             fileFields: {
-              impressions: 15565,
-              clicks: 1537,
-              spent: 20225.319999999996,
-              conversions: 49,
+              impressions: 15684,
+              clicks: 1649,
+              spent: 21346.559999999998,
+              conversions: 50,
             },
             wordPhrases: [
               {
@@ -413,7 +396,7 @@ export const data = {
                     impressions: '419',
                     clicks: '42',
                     spent: '503.72',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -440,7 +423,7 @@ export const data = {
                     impressions: '1039',
                     clicks: '30',
                     spent: '574.83',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -449,7 +432,7 @@ export const data = {
                     impressions: '908',
                     clicks: '29',
                     spent: '722.88',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -458,7 +441,7 @@ export const data = {
                     impressions: '459',
                     clicks: '26',
                     spent: '436.46',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -467,7 +450,7 @@ export const data = {
                     impressions: '371',
                     clicks: '23',
                     spent: '361.3',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -476,7 +459,7 @@ export const data = {
                     impressions: '689',
                     clicks: '23',
                     spent: '592.78',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -485,7 +468,7 @@ export const data = {
                     impressions: '737',
                     clicks: '22',
                     spent: '815.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -521,7 +504,7 @@ export const data = {
                     impressions: '216',
                     clicks: '19',
                     spent: '506.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -539,7 +522,7 @@ export const data = {
                     impressions: '482',
                     clicks: '18',
                     spent: '266.11',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -548,7 +531,7 @@ export const data = {
                     impressions: '228',
                     clicks: '17',
                     spent: '269.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -566,7 +549,7 @@ export const data = {
                     impressions: '87',
                     clicks: '15',
                     spent: '190.18',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -575,7 +558,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -593,7 +576,7 @@ export const data = {
                     impressions: '256',
                     clicks: '13',
                     spent: '199.75',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -602,7 +585,7 @@ export const data = {
                     impressions: '64',
                     clicks: '13',
                     spent: '141.65',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -611,7 +594,7 @@ export const data = {
                     impressions: '128',
                     clicks: '13',
                     spent: '99.61',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -620,7 +603,7 @@ export const data = {
                     impressions: '63',
                     clicks: '13',
                     spent: '169.56',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -642,15 +625,6 @@ export const data = {
                   },
               },
               {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0447\u0430\u0439\u043d\u0438\u043a \u0441\u043e \u0441\u0432\u0438\u0441\u0442\u043a\u043e\u043c':
                   {
                     impressions: '75',
@@ -665,7 +639,7 @@ export const data = {
                     impressions: '56',
                     clicks: '12',
                     spent: '135.55',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -674,7 +648,7 @@ export const data = {
                     impressions: '127',
                     clicks: '12',
                     spent: '203.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -692,7 +666,7 @@ export const data = {
                     impressions: '318',
                     clicks: '11',
                     spent: '142.69',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -710,7 +684,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -719,7 +693,7 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -728,7 +702,7 @@ export const data = {
                     impressions: '60',
                     clicks: '10',
                     spent: '160.44',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -737,7 +711,7 @@ export const data = {
                     impressions: '219',
                     clicks: '10',
                     spent: '158.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -746,16 +720,16 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
               {
@@ -764,7 +738,7 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -795,14 +769,14 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 52,
+            phraseCount: 51,
           },
         },
         fileFields: {
-          impressions: 15565,
-          clicks: 1537,
-          spent: 20225.319999999996,
-          conversions: 49,
+          impressions: 15684,
+          clicks: 1649,
+          spent: 21346.559999999998,
+          conversions: 50,
         },
         keywordPhrase: [
           {
@@ -892,7 +866,7 @@ export const data = {
                 impressions: '419',
                 clicks: '42',
                 spent: '503.72',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -919,7 +893,7 @@ export const data = {
                 impressions: '1039',
                 clicks: '30',
                 spent: '574.83',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -928,7 +902,7 @@ export const data = {
                 impressions: '908',
                 clicks: '29',
                 spent: '722.88',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -937,7 +911,7 @@ export const data = {
                 impressions: '459',
                 clicks: '26',
                 spent: '436.46',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -946,7 +920,7 @@ export const data = {
                 impressions: '371',
                 clicks: '23',
                 spent: '361.3',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -955,7 +929,7 @@ export const data = {
                 impressions: '689',
                 clicks: '23',
                 spent: '592.78',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -964,7 +938,7 @@ export const data = {
                 impressions: '737',
                 clicks: '22',
                 spent: '815.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1000,7 +974,7 @@ export const data = {
                 impressions: '216',
                 clicks: '19',
                 spent: '506.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1018,7 +992,7 @@ export const data = {
                 impressions: '482',
                 clicks: '18',
                 spent: '266.11',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1027,7 +1001,7 @@ export const data = {
                 impressions: '228',
                 clicks: '17',
                 spent: '269.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1045,7 +1019,7 @@ export const data = {
                 impressions: '87',
                 clicks: '15',
                 spent: '190.18',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1054,7 +1028,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1072,7 +1046,7 @@ export const data = {
                 impressions: '256',
                 clicks: '13',
                 spent: '199.75',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1081,7 +1055,7 @@ export const data = {
                 impressions: '64',
                 clicks: '13',
                 spent: '141.65',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1090,7 +1064,7 @@ export const data = {
                 impressions: '128',
                 clicks: '13',
                 spent: '99.61',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1099,7 +1073,7 @@ export const data = {
                 impressions: '63',
                 clicks: '13',
                 spent: '169.56',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1121,15 +1095,6 @@ export const data = {
               },
           },
           {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0447\u0430\u0439\u043d\u0438\u043a \u0441\u043e \u0441\u0432\u0438\u0441\u0442\u043a\u043e\u043c':
               {
                 impressions: '75',
@@ -1144,7 +1109,7 @@ export const data = {
                 impressions: '56',
                 clicks: '12',
                 spent: '135.55',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1153,7 +1118,7 @@ export const data = {
                 impressions: '127',
                 clicks: '12',
                 spent: '203.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1171,7 +1136,7 @@ export const data = {
                 impressions: '318',
                 clicks: '11',
                 spent: '142.69',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1189,7 +1154,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1198,7 +1163,7 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1207,7 +1172,7 @@ export const data = {
                 impressions: '60',
                 clicks: '10',
                 spent: '160.44',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1216,7 +1181,7 @@ export const data = {
                 impressions: '219',
                 clicks: '10',
                 spent: '158.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1225,17 +1190,12 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -1243,7 +1203,7 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1274,16 +1234,16 @@ export const data = {
               },
           },
         ],
-        phraseCount: 52,
+        phraseCount: 51,
       },
       '\u0412': {
         wordsInPhrase: {
           '!\u0432': {
             fileFields: {
-              impressions: 4377,
-              clicks: 575,
-              spent: 7572.460000000001,
-              conversions: 22,
+              impressions: 4496,
+              clicks: 687,
+              spent: 8693.7,
+              conversions: 23,
             },
             wordPhrases: [
               {
@@ -1346,7 +1306,7 @@ export const data = {
                     impressions: '689',
                     clicks: '23',
                     spent: '592.78',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1373,7 +1333,7 @@ export const data = {
                     impressions: '87',
                     clicks: '15',
                     spent: '190.18',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1382,7 +1342,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1395,21 +1355,12 @@ export const data = {
                   },
               },
               {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
                 '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
                   {
                     impressions: '127',
                     clicks: '12',
                     spent: '203.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1418,16 +1369,16 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
               {
@@ -1436,7 +1387,7 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1449,14 +1400,14 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 18,
+            phraseCount: 17,
           },
         },
         fileFields: {
-          impressions: 4377,
-          clicks: 575,
-          spent: 7572.460000000001,
-          conversions: 22,
+          impressions: 4496,
+          clicks: 687,
+          spent: 8693.7,
+          conversions: 23,
         },
         keywordPhrase: [
           {
@@ -1519,7 +1470,7 @@ export const data = {
                 impressions: '689',
                 clicks: '23',
                 spent: '592.78',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1546,7 +1497,7 @@ export const data = {
                 impressions: '87',
                 clicks: '15',
                 spent: '190.18',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1555,7 +1506,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1568,21 +1519,12 @@ export const data = {
               },
           },
           {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
             '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
               {
                 impressions: '127',
                 clicks: '12',
                 spent: '203.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1591,17 +1533,12 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -1609,7 +1546,7 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1622,16 +1559,16 @@ export const data = {
               },
           },
         ],
-        phraseCount: 18,
+        phraseCount: 17,
       },
       '\u041c\u041e\u0421\u041a\u0412\u0410': {
         wordsInPhrase: {
           '!\u043c\u043e\u0441\u043a\u0432\u0435': {
             fileFields: {
-              impressions: 4377,
-              clicks: 575,
-              spent: 7572.460000000001,
-              conversions: 22,
+              impressions: 4496,
+              clicks: 687,
+              spent: 8693.7,
+              conversions: 23,
             },
             wordPhrases: [
               {
@@ -1694,7 +1631,7 @@ export const data = {
                     impressions: '689',
                     clicks: '23',
                     spent: '592.78',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1721,7 +1658,7 @@ export const data = {
                     impressions: '87',
                     clicks: '15',
                     spent: '190.18',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1730,7 +1667,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1743,21 +1680,12 @@ export const data = {
                   },
               },
               {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
                 '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
                   {
                     impressions: '127',
                     clicks: '12',
                     spent: '203.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1766,16 +1694,16 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
               {
@@ -1784,7 +1712,7 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -1797,7 +1725,7 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 18,
+            phraseCount: 17,
           },
           '!\u043c\u043e\u0441\u043a\u0432\u0430': {
             fileFields: {
@@ -1813,7 +1741,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -1821,10 +1749,10 @@ export const data = {
           },
         },
         fileFields: {
-          impressions: 4425,
-          clicks: 586,
-          spent: 7737.580000000001,
-          conversions: 22,
+          impressions: 4544,
+          clicks: 698,
+          spent: 8858.820000000002,
+          conversions: 23,
         },
         keywordPhrase: [
           {
@@ -1887,7 +1815,7 @@ export const data = {
                 impressions: '689',
                 clicks: '23',
                 spent: '592.78',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1914,7 +1842,7 @@ export const data = {
                 impressions: '87',
                 clicks: '15',
                 spent: '190.18',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1923,7 +1851,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1936,21 +1864,12 @@ export const data = {
               },
           },
           {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
             '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
               {
                 impressions: '127',
                 clicks: '12',
                 spent: '203.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1959,7 +1878,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1968,17 +1887,12 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -1986,7 +1900,7 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -1999,16 +1913,16 @@ export const data = {
               },
           },
         ],
-        phraseCount: 19,
+        phraseCount: 18,
       },
       '\u0422\u0423\u0420\u0415\u0426\u041a\u0418\u0419': {
         wordsInPhrase: {
           '!\u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439': {
             fileFields: {
-              impressions: 968,
-              clicks: 270,
-              spent: 2125.03,
-              conversions: 19,
+              impressions: 1087,
+              clicks: 382,
+              spent: 3246.27,
+              conversions: 20,
             },
             wordPhrases: [
               {
@@ -2075,34 +1989,25 @@ export const data = {
                   },
               },
               {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
                 '\u0447\u0430\u0439\u043d\u0438\u043a \u0434\u0432\u043e\u0439\u043d\u043e\u0439 \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439':
                   {
                     impressions: '32',
                     clicks: '11',
                     spent: '56.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
             ],
-            phraseCount: 10,
+            phraseCount: 9,
           },
           '!\u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0435': {
             fileFields: {
@@ -2136,7 +2041,7 @@ export const data = {
                     impressions: '90',
                     clicks: '20',
                     spent: '136.46',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2154,7 +2059,7 @@ export const data = {
                     impressions: '50',
                     clicks: '10',
                     spent: '65.37',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -2202,10 +2107,10 @@ export const data = {
           },
         },
         fileFields: {
-          impressions: 1469,
-          clicks: 401,
-          spent: 3182.0499999999997,
-          conversions: 27,
+          impressions: 1588,
+          clicks: 513,
+          spent: 4303.290000000001,
+          conversions: 28,
         },
         keywordPhrase: [
           {
@@ -2268,7 +2173,7 @@ export const data = {
                 impressions: '90',
                 clicks: '20',
                 spent: '136.46',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2317,31 +2222,17 @@ export const data = {
               },
           },
           {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
             '\u0447\u0430\u0439\u043d\u0438\u043a \u0434\u0432\u043e\u0439\u043d\u043e\u0439 \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439':
               {
                 impressions: '32',
                 clicks: '11',
                 spent: '56.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
           {
             '\u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0435 \u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0438':
@@ -2358,20 +2249,20 @@ export const data = {
                 impressions: '50',
                 clicks: '10',
                 spent: '65.37',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
-        phraseCount: 17,
+        phraseCount: 16,
       },
       '\u0427\u0410\u0419\u041d\u0418\u041a': {
         wordsInPhrase: {
           '!\u0447\u0430\u0439\u043d\u0438\u043a': {
             fileFields: {
-              impressions: 4695,
-              clicks: 450,
-              spent: 6061.240000000002,
-              conversions: 22,
+              impressions: 4933,
+              clicks: 674,
+              spent: 8303.720000000001,
+              conversions: 24,
             },
             wordPhrases: [
               {
@@ -2407,7 +2298,7 @@ export const data = {
                     impressions: '908',
                     clicks: '29',
                     spent: '722.88',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2416,7 +2307,7 @@ export const data = {
                     impressions: '689',
                     clicks: '23',
                     spent: '592.78',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2425,7 +2316,7 @@ export const data = {
                     impressions: '737',
                     clicks: '22',
                     spent: '815.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2443,7 +2334,7 @@ export const data = {
                     impressions: '216',
                     clicks: '19',
                     spent: '506.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2452,7 +2343,7 @@ export const data = {
                     impressions: '214',
                     clicks: '15',
                     spent: '203.56',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2461,7 +2352,7 @@ export const data = {
                     impressions: '272',
                     clicks: '14',
                     spent: '328.75',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2479,7 +2370,7 @@ export const data = {
                     impressions: '256',
                     clicks: '13',
                     spent: '199.75',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2501,24 +2392,6 @@ export const data = {
                   },
               },
               {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0447\u0430\u0439\u043d\u0438\u043a \u0441\u043e \u0441\u0432\u0438\u0441\u0442\u043a\u043e\u043c':
                   {
                     impressions: '75',
@@ -2533,7 +2406,7 @@ export const data = {
                     impressions: '318',
                     clicks: '11',
                     spent: '142.69',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2542,29 +2415,20 @@ export const data = {
                     impressions: '32',
                     clicks: '11',
                     spent: '56.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 322,
+                    clicks: 268,
+                    spent: 2799.58,
+                    conversions: 4,
                   },
               },
             ],
-            phraseCount: 21,
+            phraseCount: 18,
           },
           '!\u0447\u0430\u0439\u043d\u0438\u043a\u0438': {
             fileFields: {
@@ -2598,7 +2462,7 @@ export const data = {
                     impressions: '90',
                     clicks: '20',
                     spent: '136.46',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -2607,7 +2471,7 @@ export const data = {
                     impressions: '50',
                     clicks: '10',
                     spent: '65.37',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -2615,10 +2479,10 @@ export const data = {
           },
         },
         fileFields: {
-          impressions: 4973,
-          clicks: 534,
-          spent: 6660.300000000001,
-          conversions: 25,
+          impressions: 5211,
+          clicks: 758,
+          spent: 8902.78,
+          conversions: 27,
         },
         keywordPhrase: [
           {
@@ -2663,7 +2527,7 @@ export const data = {
                 impressions: '908',
                 clicks: '29',
                 spent: '722.88',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2672,7 +2536,7 @@ export const data = {
                 impressions: '689',
                 clicks: '23',
                 spent: '592.78',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2681,7 +2545,7 @@ export const data = {
                 impressions: '737',
                 clicks: '22',
                 spent: '815.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2708,7 +2572,7 @@ export const data = {
                 impressions: '90',
                 clicks: '20',
                 spent: '136.46',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2717,7 +2581,7 @@ export const data = {
                 impressions: '216',
                 clicks: '19',
                 spent: '506.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2726,7 +2590,7 @@ export const data = {
                 impressions: '214',
                 clicks: '15',
                 spent: '203.56',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2735,7 +2599,7 @@ export const data = {
                 impressions: '272',
                 clicks: '14',
                 spent: '328.75',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2753,7 +2617,7 @@ export const data = {
                 impressions: '256',
                 clicks: '13',
                 spent: '199.75',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2775,24 +2639,6 @@ export const data = {
               },
           },
           {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0447\u0430\u0439\u043d\u0438\u043a \u0441\u043e \u0441\u0432\u0438\u0441\u0442\u043a\u043e\u043c':
               {
                 impressions: '75',
@@ -2807,7 +2653,7 @@ export const data = {
                 impressions: '318',
                 clicks: '11',
                 spent: '142.69',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -2816,26 +2662,12 @@ export const data = {
                 impressions: '32',
                 clicks: '11',
                 spent: '56.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 322, clicks: 268, spent: 2799.58, conversions: 4 },
           },
           {
             '\u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0435 \u0447\u0430\u0439\u043d\u0438\u043a\u0438 \u0434\u0432\u043e\u0439\u043d\u044b\u0435':
@@ -2843,11 +2675,11 @@ export const data = {
                 impressions: '50',
                 clicks: '10',
                 spent: '65.37',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
-        phraseCount: 25,
+        phraseCount: 22,
       },
       '\u0414\u0412\u041e\u0419\u041d\u041e\u0419': {
         wordsInPhrase: {
@@ -2901,7 +2733,7 @@ export const data = {
                     impressions: '32',
                     clicks: '11',
                     spent: '56.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -2939,7 +2771,7 @@ export const data = {
                     impressions: '50',
                     clicks: '10',
                     spent: '65.37',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -3013,7 +2845,7 @@ export const data = {
                 impressions: '32',
                 clicks: '11',
                 spent: '56.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -3022,7 +2854,7 @@ export const data = {
                 impressions: '50',
                 clicks: '10',
                 spent: '65.37',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -3038,14 +2870,6 @@ export const data = {
               conversions: 10,
             },
             wordPhrases: [
-              {
-                '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430': {
-                  impressions: '1746',
-                  clicks: '60',
-                  spent: '816.69',
-                  conversions: '-',
-                },
-              },
               {
                 '\u0442\u0443\u0440\u0435\u0446\u043a\u0430\u044f \u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430':
                   {
@@ -3070,7 +2894,7 @@ export const data = {
                     impressions: '482',
                     clicks: '18',
                     spent: '266.11',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3079,7 +2903,7 @@ export const data = {
                     impressions: '109',
                     clicks: '14',
                     spent: '150.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3088,15 +2912,15 @@ export const data = {
                     impressions: '115',
                     clicks: '12',
                     spent: '88.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430': {
-                  impressions: '410',
-                  clicks: '11',
-                  spent: '318.57',
-                  conversions: '-',
+                  impressions: 2156,
+                  clicks: 71,
+                  spent: 1135.26,
+                  conversions: 0,
                 },
               },
               {
@@ -3114,7 +2938,7 @@ export const data = {
                     impressions: '60',
                     clicks: '10',
                     spent: '160.44',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3127,7 +2951,7 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 10,
+            phraseCount: 9,
           },
           '!\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0443': {
             fileFields: {
@@ -3143,7 +2967,7 @@ export const data = {
                     impressions: '371',
                     clicks: '23',
                     spent: '361.3',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -3178,20 +3002,12 @@ export const data = {
         },
         keywordPhrase: [
           {
-            '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430': {
-              impressions: '1746',
-              clicks: '60',
-              spent: '816.69',
-              conversions: '-',
-            },
-          },
-          {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0443':
               {
                 impressions: '371',
                 clicks: '23',
                 spent: '361.3',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -3218,7 +3034,7 @@ export const data = {
                 impressions: '482',
                 clicks: '18',
                 spent: '266.11',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -3227,7 +3043,7 @@ export const data = {
                 impressions: '109',
                 clicks: '14',
                 spent: '150.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -3236,15 +3052,15 @@ export const data = {
                 impressions: '115',
                 clicks: '12',
                 spent: '88.33',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430': {
-              impressions: '410',
-              clicks: '11',
-              spent: '318.57',
-              conversions: '-',
+              impressions: 2156,
+              clicks: 71,
+              spent: 1135.26,
+              conversions: 0,
             },
           },
           {
@@ -3262,7 +3078,7 @@ export const data = {
                 impressions: '60',
                 clicks: '10',
                 spent: '160.44',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -3284,7 +3100,7 @@ export const data = {
               },
           },
         ],
-        phraseCount: 12,
+        phraseCount: 11,
       },
       '\u042d\u041b\u0415\u041a\u0422\u0420\u0418\u0427\u0415\u0421\u041a\u0418\u0419':
         {
@@ -3298,15 +3114,6 @@ export const data = {
                   conversions: 15,
                 },
                 wordPhrases: [
-                  {
-                    '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
-                      {
-                        impressions: '616',
-                        clicks: '57',
-                        spent: '749.53',
-                        conversions: '3',
-                      },
-                  },
                   {
                     '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u0443\u043f\u0438\u0442\u044c':
                       {
@@ -3326,15 +3133,6 @@ export const data = {
                       },
                   },
                   {
-                    '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-                      {
-                        impressions: '452',
-                        clicks: '46',
-                        spent: '503.64',
-                        conversions: '-',
-                      },
-                  },
-                  {
                     '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
                       {
                         impressions: '319',
@@ -3344,30 +3142,21 @@ export const data = {
                       },
                   },
                   {
-                    '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                      {
-                        impressions: '306',
-                        clicks: '29',
-                        spent: '286.26',
-                        conversions: '-',
-                      },
-                  },
-                  {
                     '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
                       {
-                        impressions: '159',
-                        clicks: '21',
-                        spent: '237.55',
-                        conversions: '-',
+                        impressions: 775,
+                        clicks: 78,
+                        spent: 987.0799999999999,
+                        conversions: 3,
                       },
                   },
                   {
                     '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
                       {
-                        impressions: '122',
-                        clicks: '15',
-                        spent: '170.29',
-                        conversions: '-',
+                        impressions: 574,
+                        clicks: 61,
+                        spent: 673.93,
+                        conversions: 0,
                       },
                   },
                   {
@@ -3376,25 +3165,16 @@ export const data = {
                         impressions: '109',
                         clicks: '14',
                         spent: '150.02',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
                     '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                       {
-                        impressions: '126',
-                        clicks: '14',
-                        spent: '224.58',
-                        conversions: '-',
-                      },
-                  },
-                  {
-                    '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                      {
-                        impressions: '91',
-                        clicks: '14',
-                        spent: '139.36',
-                        conversions: '3',
+                        impressions: 523,
+                        clicks: 57,
+                        spent: 650.2,
+                        conversions: 3,
                       },
                   },
                   {
@@ -3403,7 +3183,7 @@ export const data = {
                         impressions: '73',
                         clicks: '14',
                         spent: '160.54',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3412,7 +3192,7 @@ export const data = {
                         impressions: '54',
                         clicks: '13',
                         spent: '149.74',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3421,7 +3201,7 @@ export const data = {
                         impressions: '115',
                         clicks: '12',
                         spent: '88.33',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3439,7 +3219,7 @@ export const data = {
                         impressions: '48',
                         clicks: '11',
                         spent: '165.12',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3448,7 +3228,7 @@ export const data = {
                         impressions: '60',
                         clicks: '10',
                         spent: '160.44',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3461,7 +3241,7 @@ export const data = {
                       },
                   },
                 ],
-                phraseCount: 18,
+                phraseCount: 14,
               },
             '!\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439':
               {
@@ -3478,7 +3258,7 @@ export const data = {
                         impressions: '908',
                         clicks: '29',
                         spent: '722.88',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3487,7 +3267,7 @@ export const data = {
                         impressions: '689',
                         clicks: '23',
                         spent: '592.78',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3496,7 +3276,7 @@ export const data = {
                         impressions: '737',
                         clicks: '22',
                         spent: '815.33',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
@@ -3526,7 +3306,7 @@ export const data = {
                         impressions: '64',
                         clicks: '13',
                         spent: '141.65',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -3535,7 +3315,7 @@ export const data = {
                         impressions: '56',
                         clicks: '12',
                         spent: '135.55',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
@@ -3549,15 +3329,6 @@ export const data = {
             conversions: 16,
           },
           keywordPhrase: [
-            {
-              '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
-                {
-                  impressions: '616',
-                  clicks: '57',
-                  spent: '749.53',
-                  conversions: '3',
-                },
-            },
             {
               '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u0443\u043f\u0438\u0442\u044c':
                 {
@@ -3577,15 +3348,6 @@ export const data = {
                 },
             },
             {
-              '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-                {
-                  impressions: '452',
-                  clicks: '46',
-                  spent: '503.64',
-                  conversions: '-',
-                },
-            },
-            {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
                 {
                   impressions: '319',
@@ -3600,16 +3362,7 @@ export const data = {
                   impressions: '908',
                   clicks: '29',
                   spent: '722.88',
-                  conversions: '-',
-                },
-            },
-            {
-              '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                {
-                  impressions: '306',
-                  clicks: '29',
-                  spent: '286.26',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3618,7 +3371,7 @@ export const data = {
                   impressions: '689',
                   clicks: '23',
                   spent: '592.78',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3627,7 +3380,7 @@ export const data = {
                   impressions: '737',
                   clicks: '22',
                   spent: '815.33',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3642,20 +3395,15 @@ export const data = {
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
                 {
-                  impressions: '159',
-                  clicks: '21',
-                  spent: '237.55',
-                  conversions: '-',
+                  impressions: 775,
+                  clicks: 78,
+                  spent: 987.0799999999999,
+                  conversions: 3,
                 },
             },
             {
               '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-                {
-                  impressions: '122',
-                  clicks: '15',
-                  spent: '170.29',
-                  conversions: '-',
-                },
+                { impressions: 574, clicks: 61, spent: 673.93, conversions: 0 },
             },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0442\u0443\u0440\u043a\u0430':
@@ -3663,26 +3411,12 @@ export const data = {
                   impressions: '109',
                   clicks: '14',
                   spent: '150.02',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                {
-                  impressions: '126',
-                  clicks: '14',
-                  spent: '224.58',
-                  conversions: '-',
-                },
-            },
-            {
-              '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                {
-                  impressions: '91',
-                  clicks: '14',
-                  spent: '139.36',
-                  conversions: '3',
-                },
+                { impressions: 523, clicks: 57, spent: 650.2, conversions: 3 },
             },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -3690,7 +3424,7 @@ export const data = {
                   impressions: '73',
                   clicks: '14',
                   spent: '160.54',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3699,7 +3433,7 @@ export const data = {
                   impressions: '64',
                   clicks: '13',
                   spent: '141.65',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3708,7 +3442,7 @@ export const data = {
                   impressions: '54',
                   clicks: '13',
                   spent: '149.74',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3717,7 +3451,7 @@ export const data = {
                   impressions: '115',
                   clicks: '12',
                   spent: '88.33',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3726,7 +3460,7 @@ export const data = {
                   impressions: '56',
                   clicks: '12',
                   spent: '135.55',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3744,7 +3478,7 @@ export const data = {
                   impressions: '48',
                   clicks: '11',
                   spent: '165.12',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3753,7 +3487,7 @@ export const data = {
                   impressions: '60',
                   clicks: '10',
                   spent: '160.44',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -3766,7 +3500,7 @@ export const data = {
                 },
             },
           ],
-          phraseCount: 24,
+          phraseCount: 20,
         },
       '\u0422\u0423\u0420\u041e\u041a': {
         wordsInPhrase: {
@@ -3778,15 +3512,6 @@ export const data = {
               conversions: 15,
             },
             wordPhrases: [
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
-                  {
-                    impressions: '616',
-                    clicks: '57',
-                    spent: '749.53',
-                    conversions: '3',
-                  },
-              },
               {
                 '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u0443\u043f\u0438\u0442\u044c':
                   {
@@ -3806,15 +3531,6 @@ export const data = {
                   },
               },
               {
-                '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-                  {
-                    impressions: '452',
-                    clicks: '46',
-                    spent: '503.64',
-                    conversions: '-',
-                  },
-              },
-              {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
                   {
                     impressions: '319',
@@ -3824,39 +3540,30 @@ export const data = {
                   },
               },
               {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '306',
-                    clicks: '29',
-                    spent: '286.26',
-                    conversions: '-',
-                  },
-              },
-              {
                 '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
                     impressions: '1023',
                     clicks: '21',
                     spent: '361.67',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
                   {
-                    impressions: '159',
-                    clicks: '21',
-                    spent: '237.55',
-                    conversions: '-',
+                    impressions: 775,
+                    clicks: 78,
+                    spent: 987.0799999999999,
+                    conversions: 3,
                   },
               },
               {
                 '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
                   {
-                    impressions: '122',
-                    clicks: '15',
-                    spent: '170.29',
-                    conversions: '-',
+                    impressions: 574,
+                    clicks: 61,
+                    spent: 673.93,
+                    conversions: 0,
                   },
               },
               {
@@ -3865,25 +3572,16 @@ export const data = {
                     impressions: '109',
                     clicks: '14',
                     spent: '150.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
-                    impressions: '126',
-                    clicks: '14',
-                    spent: '224.58',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '91',
-                    clicks: '14',
-                    spent: '139.36',
-                    conversions: '3',
+                    impressions: 523,
+                    clicks: 57,
+                    spent: 650.2,
+                    conversions: 3,
                   },
               },
               {
@@ -3892,7 +3590,7 @@ export const data = {
                     impressions: '73',
                     clicks: '14',
                     spent: '160.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3901,7 +3599,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3910,7 +3608,7 @@ export const data = {
                     impressions: '115',
                     clicks: '12',
                     spent: '88.33',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3928,7 +3626,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3937,7 +3635,7 @@ export const data = {
                     impressions: '68',
                     clicks: '11',
                     spent: '164.29',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -3950,72 +3648,16 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 19,
-          },
-          '!\u0442\u0443\u0440\u043a\u0443': {
-            fileFields: {
-              impressions: 422,
-              clicks: 64,
-              spent: 913.3599999999999,
-              conversions: 1,
-            },
-            wordPhrases: [
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '74',
-                    clicks: '22',
-                    spent: '366.71',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '228',
-                    clicks: '17',
-                    spent: '269.45',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '64',
-                    clicks: '13',
-                    spent: '141.65',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443':
-                  {
-                    impressions: '56',
-                    clicks: '12',
-                    spent: '135.55',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 4,
+            phraseCount: 15,
           },
         },
         fileFields: {
-          impressions: 4997,
-          clicks: 521,
-          spent: 6923.549999999999,
-          conversions: 16,
+          impressions: 4575,
+          clicks: 457,
+          spent: 6010.19,
+          conversions: 15,
         },
         keywordPhrase: [
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
-              {
-                impressions: '616',
-                clicks: '57',
-                spent: '749.53',
-                conversions: '3',
-              },
-          },
           {
             '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u0443\u043f\u0438\u0442\u044c':
               {
@@ -4035,15 +3677,6 @@ export const data = {
               },
           },
           {
-            '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-              {
-                impressions: '452',
-                clicks: '46',
-                spent: '503.64',
-                conversions: '-',
-              },
-          },
-          {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
               {
                 impressions: '319',
@@ -4053,58 +3686,26 @@ export const data = {
               },
           },
           {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '306',
-                clicks: '29',
-                spent: '286.26',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '74',
-                clicks: '22',
-                spent: '366.71',
-                conversions: '1',
-              },
-          },
-          {
             '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
               {
                 impressions: '1023',
                 clicks: '21',
                 spent: '361.67',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430':
               {
-                impressions: '159',
-                clicks: '21',
-                spent: '237.55',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-              {
-                impressions: '228',
-                clicks: '17',
-                spent: '269.45',
-                conversions: '-',
+                impressions: 775,
+                clicks: 78,
+                spent: 987.0799999999999,
+                conversions: 3,
               },
           },
           {
             '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f':
-              {
-                impressions: '122',
-                clicks: '15',
-                spent: '170.29',
-                conversions: '-',
-              },
+              { impressions: 574, clicks: 61, spent: 673.93, conversions: 0 },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0442\u0443\u0440\u043a\u0430':
@@ -4112,26 +3713,12 @@ export const data = {
                 impressions: '109',
                 clicks: '14',
                 spent: '150.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '126',
-                clicks: '14',
-                spent: '224.58',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '91',
-                clicks: '14',
-                spent: '139.36',
-                conversions: '3',
-              },
+              { impressions: 523, clicks: 57, spent: 650.2, conversions: 3 },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -4139,16 +3726,7 @@ export const data = {
                 impressions: '73',
                 clicks: '14',
                 spent: '160.54',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '64',
-                clicks: '13',
-                spent: '141.65',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4157,7 +3735,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4166,16 +3744,7 @@ export const data = {
                 impressions: '115',
                 clicks: '12',
                 spent: '88.33',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443':
-              {
-                impressions: '56',
-                clicks: '12',
-                spent: '135.55',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4193,7 +3762,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4202,7 +3771,7 @@ export const data = {
                 impressions: '68',
                 clicks: '11',
                 spent: '164.29',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4215,7 +3784,7 @@ export const data = {
               },
           },
         ],
-        phraseCount: 23,
+        phraseCount: 15,
       },
       '\u041f\u0410\u0420\u041e\u0412\u0410\u0420\u041a\u0410': {
         wordsInPhrase: {
@@ -4232,7 +3801,7 @@ export const data = {
                   impressions: '1254',
                   clicks: '48',
                   spent: '880.04',
-                  conversions: '-',
+                  conversions: '0',
                 },
               },
               {
@@ -4250,7 +3819,7 @@ export const data = {
                     impressions: '1039',
                     clicks: '30',
                     spent: '574.83',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4259,7 +3828,7 @@ export const data = {
                     impressions: '127',
                     clicks: '12',
                     spent: '203.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -4279,7 +3848,7 @@ export const data = {
                     impressions: '459',
                     clicks: '26',
                     spent: '436.46',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4308,7 +3877,7 @@ export const data = {
                     impressions: '146',
                     clicks: '13',
                     spent: '117.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -4327,7 +3896,7 @@ export const data = {
               impressions: '1254',
               clicks: '48',
               spent: '880.04',
-              conversions: '-',
+              conversions: '0',
             },
           },
           {
@@ -4345,7 +3914,7 @@ export const data = {
                 impressions: '1039',
                 clicks: '30',
                 spent: '574.83',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4354,7 +3923,7 @@ export const data = {
                 impressions: '459',
                 clicks: '26',
                 spent: '436.46',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4372,7 +3941,7 @@ export const data = {
                 impressions: '146',
                 clicks: '13',
                 spent: '117.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4381,7 +3950,7 @@ export const data = {
                 impressions: '127',
                 clicks: '12',
                 spent: '203.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -4407,21 +3976,12 @@ export const data = {
                   },
               },
               {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '306',
-                    clicks: '29',
-                    spent: '286.26',
-                    conversions: '-',
-                  },
-              },
-              {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
                     impressions: '208',
                     clicks: '25',
                     spent: '349.91',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4439,7 +3999,7 @@ export const data = {
                     impressions: '1023',
                     clicks: '21',
                     spent: '361.67',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4457,25 +4017,16 @@ export const data = {
                     impressions: '228',
                     clicks: '17',
                     spent: '269.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
-                    impressions: '126',
-                    clicks: '14',
-                    spent: '224.58',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '91',
-                    clicks: '14',
-                    spent: '139.36',
-                    conversions: '3',
+                    impressions: 523,
+                    clicks: 57,
+                    spent: 650.2,
+                    conversions: 3,
                   },
               },
               {
@@ -4484,7 +4035,7 @@ export const data = {
                     impressions: '73',
                     clicks: '14',
                     spent: '160.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4493,7 +4044,7 @@ export const data = {
                     impressions: '64',
                     clicks: '13',
                     spent: '141.65',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4502,7 +4053,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4511,7 +4062,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4520,11 +4071,11 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
-            phraseCount: 14,
+            phraseCount: 12,
           },
         },
         fileFields: {
@@ -4544,21 +4095,12 @@ export const data = {
               },
           },
           {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '306',
-                clicks: '29',
-                spent: '286.26',
-                conversions: '-',
-              },
-          },
-          {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
               {
                 impressions: '208',
                 clicks: '25',
                 spent: '349.91',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4576,7 +4118,7 @@ export const data = {
                 impressions: '1023',
                 clicks: '21',
                 spent: '361.67',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4594,26 +4136,12 @@ export const data = {
                 impressions: '228',
                 clicks: '17',
                 spent: '269.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '126',
-                clicks: '14',
-                spent: '224.58',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '91',
-                clicks: '14',
-                spent: '139.36',
-                conversions: '3',
-              },
+              { impressions: 523, clicks: 57, spent: 650.2, conversions: 3 },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -4621,7 +4149,7 @@ export const data = {
                 impressions: '73',
                 clicks: '14',
                 spent: '160.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4630,7 +4158,7 @@ export const data = {
                 impressions: '64',
                 clicks: '13',
                 spent: '141.65',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4639,7 +4167,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4648,7 +4176,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4657,15 +4185,15 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
-        phraseCount: 14,
+        phraseCount: 12,
       },
-      '\u0414\u041b\u0418\u0422\u042c': {
+      '\u041a\u041e\u0424\u0415': {
         wordsInPhrase: {
-          '!\u0434\u043b\u044f': {
+          '!\u043a\u043e\u0444\u0435': {
             fileFields: {
               impressions: 2745,
               clicks: 267,
@@ -4683,21 +4211,12 @@ export const data = {
                   },
               },
               {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '306',
-                    clicks: '29',
-                    spent: '286.26',
-                    conversions: '-',
-                  },
-              },
-              {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
                     impressions: '208',
                     clicks: '25',
                     spent: '349.91',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4715,7 +4234,7 @@ export const data = {
                     impressions: '1023',
                     clicks: '21',
                     spent: '361.67',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4733,25 +4252,16 @@ export const data = {
                     impressions: '228',
                     clicks: '17',
                     spent: '269.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                   {
-                    impressions: '126',
-                    clicks: '14',
-                    spent: '224.58',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '91',
-                    clicks: '14',
-                    spent: '139.36',
-                    conversions: '3',
+                    impressions: 523,
+                    clicks: 57,
+                    spent: 650.2,
+                    conversions: 3,
                   },
               },
               {
@@ -4760,7 +4270,7 @@ export const data = {
                     impressions: '73',
                     clicks: '14',
                     spent: '160.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4769,7 +4279,7 @@ export const data = {
                     impressions: '64',
                     clicks: '13',
                     spent: '141.65',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4778,7 +4288,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4787,7 +4297,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -4796,11 +4306,11 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
-            phraseCount: 14,
+            phraseCount: 12,
           },
         },
         fileFields: {
@@ -4820,21 +4330,12 @@ export const data = {
               },
           },
           {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '306',
-                clicks: '29',
-                spent: '286.26',
-                conversions: '-',
-              },
-          },
-          {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
               {
                 impressions: '208',
                 clicks: '25',
                 spent: '349.91',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4852,7 +4353,7 @@ export const data = {
                 impressions: '1023',
                 clicks: '21',
                 spent: '361.67',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4870,26 +4371,12 @@ export const data = {
                 impressions: '228',
                 clicks: '17',
                 spent: '269.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '126',
-                clicks: '14',
-                spent: '224.58',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '91',
-                clicks: '14',
-                spent: '139.36',
-                conversions: '3',
-              },
+              { impressions: 523, clicks: 57, spent: 650.2, conversions: 3 },
           },
           {
             '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
@@ -4897,7 +4384,7 @@ export const data = {
                 impressions: '73',
                 clicks: '14',
                 spent: '160.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4906,7 +4393,7 @@ export const data = {
                 impressions: '64',
                 clicks: '13',
                 spent: '141.65',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4915,7 +4402,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4924,7 +4411,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -4933,539 +4420,11 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
-        phraseCount: 14,
-      },
-      '\u041a\u041e\u0424\u0415': {
-        wordsInPhrase: {
-          '!\u043a\u043e\u0444\u0435': {
-            fileFields: {
-              impressions: 5490,
-              clicks: 534,
-              spent: 7246.939999999997,
-              conversions: 12,
-            },
-            wordPhrases: [
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '319',
-                    clicks: '46',
-                    spent: '699.32',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '319',
-                    clicks: '46',
-                    spent: '699.32',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '306',
-                    clicks: '29',
-                    spent: '286.26',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '306',
-                    clicks: '29',
-                    spent: '286.26',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '208',
-                    clicks: '25',
-                    spent: '349.91',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '208',
-                    clicks: '25',
-                    spent: '349.91',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '74',
-                    clicks: '22',
-                    spent: '366.71',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '74',
-                    clicks: '22',
-                    spent: '366.71',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '1023',
-                    clicks: '21',
-                    spent: '361.67',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '1023',
-                    clicks: '21',
-                    spent: '361.67',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0434\u043b\u044f \u0442\u0443\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '106',
-                    clicks: '18',
-                    spent: '182.34',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0434\u043b\u044f \u0442\u0443\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '106',
-                    clicks: '18',
-                    spent: '182.34',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '228',
-                    clicks: '17',
-                    spent: '269.45',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '228',
-                    clicks: '17',
-                    spent: '269.45',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '126',
-                    clicks: '14',
-                    spent: '224.58',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '126',
-                    clicks: '14',
-                    spent: '224.58',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '91',
-                    clicks: '14',
-                    spent: '139.36',
-                    conversions: '3',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '91',
-                    clicks: '14',
-                    spent: '139.36',
-                    conversions: '3',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                  {
-                    impressions: '73',
-                    clicks: '14',
-                    spent: '160.54',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                  {
-                    impressions: '73',
-                    clicks: '14',
-                    spent: '160.54',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '64',
-                    clicks: '13',
-                    spent: '141.65',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '64',
-                    clicks: '13',
-                    spent: '141.65',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-                  {
-                    impressions: '54',
-                    clicks: '13',
-                    spent: '149.74',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-                  {
-                    impressions: '54',
-                    clicks: '13',
-                    spent: '149.74',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-                  {
-                    impressions: '48',
-                    clicks: '11',
-                    spent: '165.12',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-                  {
-                    impressions: '48',
-                    clicks: '11',
-                    spent: '165.12',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                  {
-                    impressions: '25',
-                    clicks: '10',
-                    spent: '126.82',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                  {
-                    impressions: '25',
-                    clicks: '10',
-                    spent: '126.82',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 28,
-          },
-        },
-        fileFields: {
-          impressions: 5490,
-          clicks: 534,
-          spent: 7246.939999999997,
-          conversions: 12,
-        },
-        keywordPhrase: [
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '319',
-                clicks: '46',
-                spent: '699.32',
-                conversions: '1',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '319',
-                clicks: '46',
-                spent: '699.32',
-                conversions: '1',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '306',
-                clicks: '29',
-                spent: '286.26',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '306',
-                clicks: '29',
-                spent: '286.26',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '208',
-                clicks: '25',
-                spent: '349.91',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '208',
-                clicks: '25',
-                spent: '349.91',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '74',
-                clicks: '22',
-                spent: '366.71',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '74',
-                clicks: '22',
-                spent: '366.71',
-                conversions: '1',
-              },
-          },
-          {
-            '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '1023',
-                clicks: '21',
-                spent: '361.67',
-                conversions: '-',
-              },
-          },
-          {
-            '\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '1023',
-                clicks: '21',
-                spent: '361.67',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0434\u043b\u044f \u0442\u0443\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u043a\u043e\u0444\u0435':
-              {
-                impressions: '106',
-                clicks: '18',
-                spent: '182.34',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u043e\u0444\u0435\u0432\u0430\u0440\u043a\u0430 \u0434\u043b\u044f \u0442\u0443\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u043a\u043e\u0444\u0435':
-              {
-                impressions: '106',
-                clicks: '18',
-                spent: '182.34',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-              {
-                impressions: '228',
-                clicks: '17',
-                spent: '269.45',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-              {
-                impressions: '228',
-                clicks: '17',
-                spent: '269.45',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '126',
-                clicks: '14',
-                spent: '224.58',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '126',
-                clicks: '14',
-                spent: '224.58',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '91',
-                clicks: '14',
-                spent: '139.36',
-                conversions: '3',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '91',
-                clicks: '14',
-                spent: '139.36',
-                conversions: '3',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-              {
-                impressions: '73',
-                clicks: '14',
-                spent: '160.54',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-              {
-                impressions: '73',
-                clicks: '14',
-                spent: '160.54',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '64',
-                clicks: '13',
-                spent: '141.65',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
-              {
-                impressions: '64',
-                clicks: '13',
-                spent: '141.65',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-              {
-                impressions: '54',
-                clicks: '13',
-                spent: '149.74',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-              {
-                impressions: '54',
-                clicks: '13',
-                spent: '149.74',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-              {
-                impressions: '48',
-                clicks: '11',
-                spent: '165.12',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-              {
-                impressions: '48',
-                clicks: '11',
-                spent: '165.12',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-              {
-                impressions: '25',
-                clicks: '10',
-                spent: '126.82',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-              {
-                impressions: '25',
-                clicks: '10',
-                spent: '126.82',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 28,
+        phraseCount: 12,
       },
       '\u0421': {
         wordsInPhrase: {
@@ -5492,7 +4451,7 @@ export const data = {
                     impressions: '73',
                     clicks: '14',
                     spent: '160.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5501,7 +4460,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5510,7 +4469,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5519,7 +4478,7 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5528,7 +4487,7 @@ export const data = {
                     impressions: '25',
                     clicks: '10',
                     spent: '126.82',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5546,7 +4505,7 @@ export const data = {
                     impressions: '29',
                     clicks: '10',
                     spent: '112.61',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -5575,7 +4534,7 @@ export const data = {
                 impressions: '73',
                 clicks: '14',
                 spent: '160.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5584,7 +4543,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5593,7 +4552,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5602,7 +4561,7 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5611,7 +4570,7 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5629,7 +4588,7 @@ export const data = {
                 impressions: '29',
                 clicks: '10',
                 spent: '112.61',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -5662,7 +4621,7 @@ export const data = {
                         impressions: '73',
                         clicks: '14',
                         spent: '160.54',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -5671,7 +4630,7 @@ export const data = {
                         impressions: '54',
                         clicks: '13',
                         spent: '149.74',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -5680,7 +4639,7 @@ export const data = {
                         impressions: '48',
                         clicks: '11',
                         spent: '165.12',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -5689,7 +4648,7 @@ export const data = {
                         impressions: '76',
                         clicks: '11',
                         spent: '170.02',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -5698,7 +4657,7 @@ export const data = {
                         impressions: '29',
                         clicks: '10',
                         spent: '112.61',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
@@ -5727,7 +4686,7 @@ export const data = {
                   impressions: '73',
                   clicks: '14',
                   spent: '160.54',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -5736,7 +4695,7 @@ export const data = {
                   impressions: '54',
                   clicks: '13',
                   spent: '149.74',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -5745,7 +4704,7 @@ export const data = {
                   impressions: '48',
                   clicks: '11',
                   spent: '165.12',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -5754,7 +4713,7 @@ export const data = {
                   impressions: '76',
                   clicks: '11',
                   spent: '170.02',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -5763,7 +4722,7 @@ export const data = {
                   impressions: '29',
                   clicks: '10',
                   spent: '112.61',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
           ],
@@ -5794,7 +4753,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5803,7 +4762,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5812,7 +4771,7 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -5850,7 +4809,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5859,7 +4818,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -5868,235 +4827,7 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
-              },
-          },
-          {
-            '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '49',
-                clicks: '10',
-                spent: '145.68',
-                conversions: '1',
-              },
-          },
-        ],
-        phraseCount: 5,
-      },
-      '\u041f\u0415\u0420\u0415\u0422\u042c': {
-        wordsInPhrase: {
-          '!\u043f\u0440\u0438': {
-            fileFields: {
-              impressions: 546,
-              clicks: 91,
-              spent: 1329.88,
-              conversions: 2,
-            },
-            wordPhrases: [
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '319',
-                    clicks: '46',
-                    spent: '699.32',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-                  {
-                    impressions: '54',
-                    clicks: '13',
-                    spent: '149.74',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-                  {
-                    impressions: '48',
-                    clicks: '11',
-                    spent: '165.12',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '76',
-                    clicks: '11',
-                    spent: '170.02',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '49',
-                    clicks: '10',
-                    spent: '145.68',
-                    conversions: '1',
-                  },
-              },
-            ],
-            phraseCount: 5,
-          },
-        },
-        fileFields: {
-          impressions: 546,
-          clicks: 91,
-          spent: 1329.88,
-          conversions: 2,
-        },
-        keywordPhrase: [
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '319',
-                clicks: '46',
-                spent: '699.32',
-                conversions: '1',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-              {
-                impressions: '54',
-                clicks: '13',
-                spent: '149.74',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-              {
-                impressions: '48',
-                clicks: '11',
-                spent: '165.12',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '76',
-                clicks: '11',
-                spent: '170.02',
-                conversions: '-',
-              },
-          },
-          {
-            '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '49',
-                clicks: '10',
-                spent: '145.68',
-                conversions: '1',
-              },
-          },
-        ],
-        phraseCount: 5,
-      },
-      '\u041f\u0420\u042f': {
-        wordsInPhrase: {
-          '!\u043f\u0440\u0438': {
-            fileFields: {
-              impressions: 546,
-              clicks: 91,
-              spent: 1329.88,
-              conversions: 2,
-            },
-            wordPhrases: [
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '319',
-                    clicks: '46',
-                    spent: '699.32',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-                  {
-                    impressions: '54',
-                    clicks: '13',
-                    spent: '149.74',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-                  {
-                    impressions: '48',
-                    clicks: '11',
-                    spent: '165.12',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '76',
-                    clicks: '11',
-                    spent: '170.02',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u0442\u0443\u0440\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '49',
-                    clicks: '10',
-                    spent: '145.68',
-                    conversions: '1',
-                  },
-              },
-            ],
-            phraseCount: 5,
-          },
-        },
-        fileFields: {
-          impressions: 546,
-          clicks: 91,
-          spent: 1329.88,
-          conversions: 2,
-        },
-        keywordPhrase: [
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '319',
-                clicks: '46',
-                spent: '699.32',
-                conversions: '1',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438':
-              {
-                impressions: '54',
-                clicks: '13',
-                spent: '149.74',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u043c\u043e\u0441\u043a\u0432\u0430':
-              {
-                impressions: '48',
-                clicks: '11',
-                spent: '165.12',
-                conversions: '-',
-              },
-          },
-          {
-            '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '76',
-                clicks: '11',
-                spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6136,7 +4867,7 @@ export const data = {
                     impressions: '54',
                     clicks: '13',
                     spent: '149.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6145,7 +4876,7 @@ export const data = {
                     impressions: '48',
                     clicks: '11',
                     spent: '165.12',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6154,7 +4885,7 @@ export const data = {
                     impressions: '76',
                     clicks: '11',
                     spent: '170.02',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6192,7 +4923,7 @@ export const data = {
                 impressions: '54',
                 clicks: '13',
                 spent: '149.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6201,7 +4932,7 @@ export const data = {
                 impressions: '48',
                 clicks: '11',
                 spent: '165.12',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6210,7 +4941,7 @@ export const data = {
                 impressions: '76',
                 clicks: '11',
                 spent: '170.02',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6241,7 +4972,7 @@ export const data = {
                     impressions: '419',
                     clicks: '42',
                     spent: '503.72',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6259,7 +4990,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6268,7 +4999,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -6288,7 +5019,7 @@ export const data = {
                 impressions: '419',
                 clicks: '42',
                 spent: '503.72',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6306,7 +5037,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6315,103 +5046,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 4,
-      },
-      '\u0418\u0417\u0410': {
-        wordsInPhrase: {
-          '!\u0438\u0437': {
-            fileFields: {
-              impressions: 665,
-              clicks: 81,
-              spent: 1104.37,
-              conversions: 2,
-            },
-            wordPhrases: [
-              {
-                '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '419',
-                    clicks: '42',
-                    spent: '503.72',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '103',
-                    clicks: '15',
-                    spent: '209.55',
-                    conversions: '2',
-                  },
-              },
-              {
-                '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '88',
-                    clicks: '14',
-                    spent: '239.39',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '55',
-                    clicks: '10',
-                    spent: '151.71',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 4,
-          },
-        },
-        fileFields: {
-          impressions: 665,
-          clicks: 81,
-          spent: 1104.37,
-          conversions: 2,
-        },
-        keywordPhrase: [
-          {
-            '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '419',
-                clicks: '42',
-                spent: '503.72',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '103',
-                clicks: '15',
-                spent: '209.55',
-                conversions: '2',
-              },
-          },
-          {
-            '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '88',
-                clicks: '14',
-                spent: '239.39',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '55',
-                clicks: '10',
-                spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -6434,7 +5069,7 @@ export const data = {
                       impressions: '419',
                       clicks: '42',
                       spent: '503.72',
-                      conversions: '-',
+                      conversions: '0',
                     },
                 },
                 {
@@ -6452,7 +5087,7 @@ export const data = {
                       impressions: '88',
                       clicks: '14',
                       spent: '239.39',
-                      conversions: '-',
+                      conversions: '0',
                     },
                 },
                 {
@@ -6461,7 +5096,7 @@ export const data = {
                       impressions: '55',
                       clicks: '10',
                       spent: '151.71',
-                      conversions: '-',
+                      conversions: '0',
                     },
                 },
               ],
@@ -6481,7 +5116,7 @@ export const data = {
                 impressions: '419',
                 clicks: '42',
                 spent: '503.72',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6499,7 +5134,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6508,7 +5143,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -6530,7 +5165,7 @@ export const data = {
                     impressions: '419',
                     clicks: '42',
                     spent: '503.72',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6548,7 +5183,7 @@ export const data = {
                     impressions: '88',
                     clicks: '14',
                     spent: '239.39',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -6557,7 +5192,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -6577,7 +5212,7 @@ export const data = {
                 impressions: '419',
                 clicks: '42',
                 spent: '503.72',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6595,7 +5230,7 @@ export const data = {
                 impressions: '88',
                 clicks: '14',
                 spent: '239.39',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -6604,103 +5239,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 4,
-      },
-      '\u0421\u0422\u0410\u0422\u042c': {
-        wordsInPhrase: {
-          '!\u0441\u0442\u0430\u043b\u0438': {
-            fileFields: {
-              impressions: 665,
-              clicks: 81,
-              spent: 1104.37,
-              conversions: 2,
-            },
-            wordPhrases: [
-              {
-                '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-                  {
-                    impressions: '419',
-                    clicks: '42',
-                    spent: '503.72',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '103',
-                    clicks: '15',
-                    spent: '209.55',
-                    conversions: '2',
-                  },
-              },
-              {
-                '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '88',
-                    clicks: '14',
-                    spent: '239.39',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '55',
-                    clicks: '10',
-                    spent: '151.71',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 4,
-          },
-        },
-        fileFields: {
-          impressions: 665,
-          clicks: 81,
-          spent: 1104.37,
-          conversions: 2,
-        },
-        keywordPhrase: [
-          {
-            '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c':
-              {
-                impressions: '419',
-                clicks: '42',
-                spent: '503.72',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '103',
-                clicks: '15',
-                spent: '209.55',
-                conversions: '2',
-              },
-          },
-          {
-            '\u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '88',
-                clicks: '14',
-                spent: '239.39',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '55',
-                clicks: '10',
-                spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -6718,42 +5257,18 @@ export const data = {
             wordPhrases: [
               {
                 korkmaz: {
-                  impressions: '139',
-                  clicks: '39',
-                  spent: '264.93',
-                  conversions: '6',
-                },
-              },
-              {
-                korkmaz: {
-                  impressions: '137',
-                  clicks: '34',
-                  spent: '249.23',
-                  conversions: '2',
-                },
-              },
-              {
-                korkmaz: {
-                  impressions: '117',
-                  clicks: '32',
-                  spent: '337.32',
-                  conversions: '8',
+                  impressions: 393,
+                  clicks: 105,
+                  spent: 851.48,
+                  conversions: 16,
                 },
               },
               {
                 'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-                  impressions: '61',
-                  clicks: '22',
-                  spent: '186.09',
-                  conversions: '-',
-                },
-              },
-              {
-                'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-                  impressions: '54',
-                  clicks: '22',
-                  spent: '229.29',
-                  conversions: '4',
+                  impressions: 115,
+                  clicks: 44,
+                  spent: 415.38,
+                  conversions: 4,
                 },
               },
               {
@@ -6766,7 +5281,7 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 6,
+            phraseCount: 3,
           },
         },
         fileFields: {
@@ -6778,42 +5293,18 @@ export const data = {
         keywordPhrase: [
           {
             korkmaz: {
-              impressions: '139',
-              clicks: '39',
-              spent: '264.93',
-              conversions: '6',
-            },
-          },
-          {
-            korkmaz: {
-              impressions: '137',
-              clicks: '34',
-              spent: '249.23',
-              conversions: '2',
-            },
-          },
-          {
-            korkmaz: {
-              impressions: '117',
-              clicks: '32',
-              spent: '337.32',
-              conversions: '8',
+              impressions: 393,
+              clicks: 105,
+              spent: 851.48,
+              conversions: 16,
             },
           },
           {
             'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-              impressions: '61',
-              clicks: '22',
-              spent: '186.09',
-              conversions: '-',
-            },
-          },
-          {
-            'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-              impressions: '54',
-              clicks: '22',
-              spent: '229.29',
-              conversions: '4',
+              impressions: 115,
+              clicks: 44,
+              spent: 415.38,
+              conversions: 4,
             },
           },
           {
@@ -6826,7 +5317,7 @@ export const data = {
               },
           },
         ],
-        phraseCount: 6,
+        phraseCount: 3,
       },
       '\u042d\u041b\u0415\u041a\u0422\u0420\u041e\u0422\u0423\u0420\u041e\u041a':
         {
@@ -6841,30 +5332,21 @@ export const data = {
                 },
                 wordPhrases: [
                   {
-                    '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430':
-                      {
-                        impressions: '405',
-                        clicks: '36',
-                        spent: '457.23',
-                        conversions: '1',
-                      },
-                  },
-                  {
                     '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                       {
                         impressions: '208',
                         clicks: '25',
                         spent: '349.91',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
                     '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430':
                       {
-                        impressions: '132',
-                        clicks: '18',
-                        spent: '212.17',
-                        conversions: '-',
+                        impressions: 537,
+                        clicks: 54,
+                        spent: 669.4,
+                        conversions: 1,
                       },
                   },
                   {
@@ -6873,7 +5355,7 @@ export const data = {
                         impressions: '76',
                         clicks: '11',
                         spent: '170.02',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -6882,67 +5364,32 @@ export const data = {
                         impressions: '29',
                         clicks: '10',
                         spent: '112.61',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
-                phraseCount: 5,
-              },
-            '!\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443':
-              {
-                fileFields: {
-                  impressions: 25,
-                  clicks: 10,
-                  spent: 126.82,
-                  conversions: 0,
-                },
-                wordPhrases: [
-                  {
-                    '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                      {
-                        impressions: '25',
-                        clicks: '10',
-                        spent: '126.82',
-                        conversions: '-',
-                      },
-                  },
-                ],
-                phraseCount: 1,
+                phraseCount: 4,
               },
           },
           fileFields: {
-            impressions: 875,
-            clicks: 110,
-            spent: 1428.76,
+            impressions: 850,
+            clicks: 100,
+            spent: 1301.94,
             conversions: 1,
           },
           keywordPhrase: [
-            {
-              '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430':
-                {
-                  impressions: '405',
-                  clicks: '36',
-                  spent: '457.23',
-                  conversions: '1',
-                },
-            },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0434\u043b\u044f \u043a\u043e\u0444\u0435':
                 {
                   impressions: '208',
                   clicks: '25',
                   spent: '349.91',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430':
-                {
-                  impressions: '132',
-                  clicks: '18',
-                  spent: '212.17',
-                  conversions: '-',
-                },
+                { impressions: 537, clicks: 54, spent: 669.4, conversions: 1 },
             },
             {
               '\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0430 \u0441 \u0430\u0432\u0442\u043e\u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438 \u0437\u0430\u043a\u0438\u043f\u0430\u043d\u0438\u0438 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
@@ -6950,16 +5397,7 @@ export const data = {
                   impressions: '76',
                   clicks: '11',
                   spent: '170.02',
-                  conversions: '-',
-                },
-            },
-            {
-              '\u043a\u0443\u043f\u0438\u0442\u044c \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u043a\u043e\u0444\u0435 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435\u043c':
-                {
-                  impressions: '25',
-                  clicks: '10',
-                  spent: '126.82',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -6968,11 +5406,11 @@ export const data = {
                   impressions: '29',
                   clicks: '10',
                   spent: '112.61',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
           ],
-          phraseCount: 6,
+          phraseCount: 4,
         },
       '\u041d\u0410\u0411\u041e\u0420': {
         wordsInPhrase: {
@@ -6990,7 +5428,7 @@ export const data = {
                     impressions: '596',
                     clicks: '28',
                     spent: '441.77',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7010,7 +5448,7 @@ export const data = {
                 impressions: '596',
                 clicks: '28',
                 spent: '441.77',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7032,7 +5470,7 @@ export const data = {
                     impressions: '596',
                     clicks: '28',
                     spent: '441.77',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7051,7 +5489,7 @@ export const data = {
                   impressions: '161',
                   clicks: '17',
                   spent: '297.81',
-                  conversions: '-',
+                  conversions: '0',
                 },
               },
             ],
@@ -7071,7 +5509,7 @@ export const data = {
                     impressions: '219',
                     clicks: '10',
                     spent: '158.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7091,7 +5529,7 @@ export const data = {
                 impressions: '596',
                 clicks: '28',
                 spent: '441.77',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -7099,7 +5537,7 @@ export const data = {
               impressions: '161',
               clicks: '17',
               spent: '297.81',
-              conversions: '-',
+              conversions: '0',
             },
           },
           {
@@ -7108,7 +5546,7 @@ export const data = {
                 impressions: '219',
                 clicks: '10',
                 spent: '158.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7126,18 +5564,10 @@ export const data = {
             wordPhrases: [
               {
                 'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-                  impressions: '61',
-                  clicks: '22',
-                  spent: '186.09',
-                  conversions: '-',
-                },
-              },
-              {
-                'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-                  impressions: '54',
-                  clicks: '22',
-                  spent: '229.29',
-                  conversions: '4',
+                  impressions: 115,
+                  clicks: 44,
+                  spent: 415.38,
+                  conversions: 4,
                 },
               },
               {
@@ -7145,7 +5575,7 @@ export const data = {
                   impressions: '239',
                   clicks: '13',
                   spent: '0',
-                  conversions: '-',
+                  conversions: '0',
                 },
               },
               {
@@ -7158,7 +5588,7 @@ export const data = {
                   },
               },
             ],
-            phraseCount: 4,
+            phraseCount: 3,
           },
         },
         fileFields: {
@@ -7170,18 +5600,10 @@ export const data = {
         keywordPhrase: [
           {
             'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-              impressions: '61',
-              clicks: '22',
-              spent: '186.09',
-              conversions: '-',
-            },
-          },
-          {
-            'korkmaz \u043f\u043e\u0441\u0443\u0434\u0430': {
-              impressions: '54',
-              clicks: '22',
-              spent: '229.29',
-              conversions: '4',
+              impressions: 115,
+              clicks: 44,
+              spent: 415.38,
+              conversions: 4,
             },
           },
           {
@@ -7189,7 +5611,7 @@ export const data = {
               impressions: '239',
               clicks: '13',
               spent: '0',
-              conversions: '-',
+              conversions: '0',
             },
           },
           {
@@ -7202,7 +5624,7 @@ export const data = {
               },
           },
         ],
-        phraseCount: 4,
+        phraseCount: 3,
       },
       '\u0422\u0423\u0420\u041a\u0423': {
         wordsInPhrase: {
@@ -7229,7 +5651,7 @@ export const data = {
                     impressions: '228',
                     clicks: '17',
                     spent: '269.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -7238,7 +5660,7 @@ export const data = {
                     impressions: '64',
                     clicks: '13',
                     spent: '141.65',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -7247,7 +5669,7 @@ export const data = {
                     impressions: '56',
                     clicks: '12',
                     spent: '135.55',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7276,7 +5698,7 @@ export const data = {
                 impressions: '228',
                 clicks: '17',
                 spent: '269.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -7285,7 +5707,7 @@ export const data = {
                 impressions: '64',
                 clicks: '13',
                 spent: '141.65',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -7294,7 +5716,7 @@ export const data = {
                 impressions: '56',
                 clicks: '12',
                 spent: '135.55',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7304,10 +5726,10 @@ export const data = {
         wordsInPhrase: {
           '!\u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439': {
             fileFields: {
-              impressions: 786,
-              clicks: 68,
-              spent: 1313.79,
-              conversions: 1,
+              impressions: 905,
+              clicks: 180,
+              spent: 2435.0299999999997,
+              conversions: 2,
             },
             wordPhrases: [
               {
@@ -7316,7 +5738,7 @@ export const data = {
                     impressions: '216',
                     clicks: '19',
                     spent: '506.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -7325,7 +5747,7 @@ export const data = {
                     impressions: '272',
                     clicks: '14',
                     spent: '328.75',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
@@ -7334,36 +5756,27 @@ export const data = {
                     impressions: '256',
                     clicks: '13',
                     spent: '199.75',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
             ],
-            phraseCount: 5,
+            phraseCount: 4,
           },
         },
         fileFields: {
-          impressions: 786,
-          clicks: 68,
-          spent: 1313.79,
-          conversions: 1,
+          impressions: 905,
+          clicks: 180,
+          spent: 2435.0299999999997,
+          conversions: 2,
         },
         keywordPhrase: [
           {
@@ -7372,7 +5785,7 @@ export const data = {
                 impressions: '216',
                 clicks: '19',
                 spent: '506.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -7381,7 +5794,7 @@ export const data = {
                 impressions: '272',
                 clicks: '14',
                 spent: '328.75',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -7390,93 +5803,19 @@ export const data = {
                 impressions: '256',
                 clicks: '13',
                 spent: '199.75',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
         ],
-        phraseCount: 5,
+        phraseCount: 4,
       },
       '\u0421\u041a\u041e\u0412\u041e\u0420\u041e\u0414\u0410': {
         wordsInPhrase: {
           '!\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430': {
-            fileFields: {
-              impressions: 766,
-              clicks: 36,
-              spent: 909.78,
-              conversions: 0,
-            },
-            wordPhrases: [
-              {
-                '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
-                  {
-                    impressions: '383',
-                    clicks: '18',
-                    spent: '454.89',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
-                  {
-                    impressions: '383',
-                    clicks: '18',
-                    spent: '454.89',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 2,
-          },
-        },
-        fileFields: {
-          impressions: 766,
-          clicks: 36,
-          spent: 909.78,
-          conversions: 0,
-        },
-        keywordPhrase: [
-          {
-            '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
-              {
-                impressions: '383',
-                clicks: '18',
-                spent: '454.89',
-                conversions: '-',
-              },
-          },
-          {
-            '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
-              {
-                impressions: '383',
-                clicks: '18',
-                spent: '454.89',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 2,
-      },
-      '\u0413\u0420\u0418\u041b\u042c': {
-        wordsInPhrase: {
-          '!\u0433\u0440\u0438\u043b\u044c': {
             fileFields: {
               impressions: 383,
               clicks: 18,
@@ -7490,7 +5829,7 @@ export const data = {
                     impressions: '383',
                     clicks: '18',
                     spent: '454.89',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7510,7 +5849,49 @@ export const data = {
                 impressions: '383',
                 clicks: '18',
                 spent: '454.89',
-                conversions: '-',
+                conversions: '0',
+              },
+          },
+        ],
+        phraseCount: 1,
+      },
+      '\u0413\u0420\u0418\u041b\u042c': {
+        wordsInPhrase: {
+          '!\u0433\u0440\u0438\u043b\u044c': {
+            fileFields: {
+              impressions: 383,
+              clicks: 18,
+              spent: 454.89,
+              conversions: 0,
+            },
+            wordPhrases: [
+              {
+                '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
+                  {
+                    impressions: '383',
+                    clicks: '18',
+                    spent: '454.89',
+                    conversions: '0',
+                  },
+              },
+            ],
+            phraseCount: 1,
+          },
+        },
+        fileFields: {
+          impressions: 383,
+          clicks: 18,
+          spent: 454.89,
+          conversions: 0,
+        },
+        keywordPhrase: [
+          {
+            '\u0441\u043a\u043e\u0432\u043e\u0440\u043e\u0434\u0430 \u0433\u0440\u0438\u043b\u044c':
+              {
+                impressions: '383',
+                clicks: '18',
+                spent: '454.89',
+                conversions: '0',
               },
           },
         ],
@@ -7532,7 +5913,7 @@ export const data = {
                     impressions: '228',
                     clicks: '17',
                     spent: '269.45',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7552,49 +5933,7 @@ export const data = {
                 impressions: '228',
                 clicks: '17',
                 spent: '269.45',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 1,
-      },
-      '\u0412\u0410\u0420\u041a\u0418\u0419': {
-        wordsInPhrase: {
-          '!\u0432\u0430\u0440\u043a\u0438': {
-            fileFields: {
-              impressions: 228,
-              clicks: 17,
-              spent: 269.45,
-              conversions: 0,
-            },
-            wordPhrases: [
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-                  {
-                    impressions: '228',
-                    clicks: '17',
-                    spent: '269.45',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 1,
-          },
-        },
-        fileFields: {
-          impressions: 228,
-          clicks: 17,
-          spent: 269.45,
-          conversions: 0,
-        },
-        keywordPhrase: [
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u043a\u0443 \u0434\u043b\u044f \u0432\u0430\u0440\u043a\u0438 \u043a\u043e\u0444\u0435':
-              {
-                impressions: '228',
-                clicks: '17',
-                spent: '269.45',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7616,7 +5955,7 @@ export const data = {
                     impressions: '214',
                     clicks: '15',
                     spent: '203.56',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7636,7 +5975,7 @@ export const data = {
                 impressions: '214',
                 clicks: '15',
                 spent: '203.56',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7667,7 +6006,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7696,7 +6035,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7769,7 +6108,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7798,67 +6137,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 2,
-      },
-      '\u041b\u0418\u0422\u0420': {
-        wordsInPhrase: {
-          '!\u043b\u0438\u0442\u0440\u043e\u0432': {
-            fileFields: {
-              impressions: 158,
-              clicks: 25,
-              spent: 361.26,
-              conversions: 2,
-            },
-            wordPhrases: [
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '103',
-                    clicks: '15',
-                    spent: '209.55',
-                    conversions: '2',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-                  {
-                    impressions: '55',
-                    clicks: '10',
-                    spent: '151.71',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 2,
-          },
-        },
-        fileFields: {
-          impressions: 158,
-          clicks: 25,
-          spent: 361.26,
-          conversions: 2,
-        },
-        keywordPhrase: [
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 5 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '103',
-                clicks: '15',
-                spent: '209.55',
-                conversions: '2',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0432\u0430\u0440\u043a\u0443 \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438 \u043d\u0430 7 \u043b\u0438\u0442\u0440\u043e\u0432':
-              {
-                impressions: '55',
-                clicks: '10',
-                spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -7880,7 +6159,7 @@ export const data = {
                     impressions: '278',
                     clicks: '14',
                     spent: '291.94',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -7899,73 +6178,13 @@ export const data = {
               impressions: '278',
               clicks: '14',
               spent: '291.94',
-              conversions: '-',
+              conversions: '0',
             },
           },
         ],
         phraseCount: 1,
       },
       '\u0412\u0421\u0415': {
-        wordsInPhrase: {
-          '!\u0432\u0441\u0435': {
-            fileFields: {
-              impressions: 292,
-              clicks: 26,
-              spent: 235.08,
-              conversions: 0,
-            },
-            wordPhrases: [
-              {
-                '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-                  {
-                    impressions: '146',
-                    clicks: '13',
-                    spent: '117.54',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-                  {
-                    impressions: '146',
-                    clicks: '13',
-                    spent: '117.54',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 2,
-          },
-        },
-        fileFields: {
-          impressions: 292,
-          clicks: 26,
-          spent: 235.08,
-          conversions: 0,
-        },
-        keywordPhrase: [
-          {
-            '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-              {
-                impressions: '146',
-                clicks: '13',
-                spent: '117.54',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-              {
-                impressions: '146',
-                clicks: '13',
-                spent: '117.54',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 2,
-      },
-      '\u0412\u0415\u0421\u042c': {
         wordsInPhrase: {
           '!\u0432\u0441\u0435': {
             fileFields: {
@@ -7981,7 +6200,7 @@ export const data = {
                     impressions: '146',
                     clicks: '13',
                     spent: '117.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -8001,7 +6220,7 @@ export const data = {
                 impressions: '146',
                 clicks: '13',
                 spent: '117.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -8023,7 +6242,7 @@ export const data = {
                     impressions: '146',
                     clicks: '13',
                     spent: '117.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -8043,7 +6262,7 @@ export const data = {
                 impressions: '146',
                 clicks: '13',
                 spent: '117.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -8053,9 +6272,9 @@ export const data = {
         wordsInPhrase: {
           '!\u0438': {
             fileFields: {
-              impressions: 376,
-              clicks: 70,
-              spent: 792.1800000000001,
+              impressions: 307,
+              clicks: 147,
+              spent: 1517.33,
               conversions: 2,
             },
             wordPhrases: [
@@ -8065,62 +6284,26 @@ export const data = {
                     impressions: '146',
                     clicks: '13',
                     spent: '117.54',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-                  {
-                    impressions: '146',
-                    clicks: '13',
-                    spent: '117.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
             ],
-            phraseCount: 6,
+            phraseCount: 2,
           },
         },
         fileFields: {
-          impressions: 376,
-          clicks: 70,
-          spent: 792.1800000000001,
+          impressions: 307,
+          clicks: 147,
+          spent: 1517.33,
           conversions: 2,
         },
         keywordPhrase: [
@@ -8130,56 +6313,15 @@ export const data = {
                 impressions: '146',
                 clicks: '13',
                 spent: '117.54',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0438 \u0432\u0441\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u044b':
-              {
-                impressions: '146',
-                clicks: '13',
-                spent: '117.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
         ],
-        phraseCount: 6,
+        phraseCount: 2,
       },
       '\u0426\u0415\u041d\u0410': {
         wordsInPhrase: {
@@ -8197,7 +6339,7 @@ export const data = {
                     impressions: '146',
                     clicks: '13',
                     spent: '117.54',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -8217,7 +6359,7 @@ export const data = {
                 impressions: '146',
                 clicks: '13',
                 spent: '117.54',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -8227,97 +6369,38 @@ export const data = {
         wordsInPhrase: {
           '!\u0441\u0432\u0435\u0440\u0445\u0443': {
             fileFields: {
-              impressions: 84,
-              clicks: 44,
-              spent: 557.0999999999999,
+              impressions: 161,
+              clicks: 134,
+              spent: 1399.79,
               conversions: 2,
             },
             wordPhrases: [
               {
                 '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
                   {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '19',
-                    clicks: '12',
-                    spent: '121.24',
-                    conversions: '1',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
-                  },
-              },
-              {
-                '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-                  {
-                    impressions: '23',
-                    clicks: '10',
-                    spent: '157.31',
-                    conversions: '-',
+                    impressions: 161,
+                    clicks: 134,
+                    spent: 1399.79,
+                    conversions: 2,
                   },
               },
             ],
-            phraseCount: 4,
+            phraseCount: 1,
           },
         },
         fileFields: {
-          impressions: 84,
-          clicks: 44,
-          spent: 557.0999999999999,
+          impressions: 161,
+          clicks: 134,
+          spent: 1399.79,
           conversions: 2,
         },
         keywordPhrase: [
           {
             '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '19',
-                clicks: '12',
-                spent: '121.24',
-                conversions: '1',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
-          },
-          {
-            '\u043a\u0443\u043f\u0438\u0442\u044c \u0442\u0443\u0440\u0435\u0446\u043a\u0438\u0439 \u0447\u0430\u0439\u043d\u0438\u043a \u0438 \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0430\u0439\u043d\u0438\u043a \u0437\u0430\u0432\u0430\u0440\u043e\u0447\u043d\u044b\u0439 \u0432 \u043c\u043e\u0441\u043a\u0432\u0435':
-              {
-                impressions: '23',
-                clicks: '10',
-                spent: '157.31',
-                conversions: '-',
-              },
+              { impressions: 161, clicks: 134, spent: 1399.79, conversions: 2 },
           },
         ],
-        phraseCount: 4,
+        phraseCount: 1,
       },
       '\u0421\u041e': {
         wordsInPhrase: {
@@ -8419,7 +6502,7 @@ export const data = {
                     impressions: '127',
                     clicks: '12',
                     spent: '203.74',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -8439,49 +6522,7 @@ export const data = {
                 impressions: '127',
                 clicks: '12',
                 spent: '203.74',
-                conversions: '-',
-              },
-          },
-        ],
-        phraseCount: 1,
-      },
-      '\u041d\u0415\u0414\u041e\u0420\u041e\u0413\u041e\u0419': {
-        wordsInPhrase: {
-          '!\u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e': {
-            fileFields: {
-              impressions: 127,
-              clicks: 12,
-              spent: 203.74,
-              conversions: 0,
-            },
-            wordPhrases: [
-              {
-                '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
-                  {
-                    impressions: '127',
-                    clicks: '12',
-                    spent: '203.74',
-                    conversions: '-',
-                  },
-              },
-            ],
-            phraseCount: 1,
-          },
-        },
-        fileFields: {
-          impressions: 127,
-          clicks: 12,
-          spent: 203.74,
-          conversions: 0,
-        },
-        keywordPhrase: [
-          {
-            '\u043f\u0430\u0440\u043e\u0432\u0430\u0440\u043a\u0430 \u043a\u0443\u043f\u0438\u0442\u044c \u0432 \u043c\u043e\u0441\u043a\u0432\u0435 \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u043e':
-              {
-                impressions: '127',
-                clicks: '12',
-                spent: '203.74',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -8632,7 +6673,7 @@ export const data = {
                         impressions: '68',
                         clicks: '11',
                         spent: '164.29',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
@@ -8652,7 +6693,7 @@ export const data = {
                   impressions: '68',
                   clicks: '11',
                   spent: '164.29',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
           ],
@@ -8674,7 +6715,7 @@ export const data = {
                     impressions: '55',
                     clicks: '10',
                     spent: '151.71',
-                    conversions: '-',
+                    conversions: '0',
                   },
               },
             ],
@@ -8694,7 +6735,7 @@ export const data = {
                 impressions: '55',
                 clicks: '10',
                 spent: '151.71',
-                conversions: '-',
+                conversions: '0',
               },
           },
         ],
@@ -8718,7 +6759,7 @@ export const data = {
                         impressions: '25',
                         clicks: '10',
                         spent: '126.82',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                 ],
@@ -8738,7 +6779,7 @@ export const data = {
                   impressions: '25',
                   clicks: '10',
                   spent: '126.82',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
           ],
@@ -8762,7 +6803,7 @@ export const data = {
                         impressions: '25',
                         clicks: '10',
                         spent: '126.82',
-                        conversions: '-',
+                        conversions: '0',
                       },
                   },
                   {
@@ -8791,7 +6832,7 @@ export const data = {
                   impressions: '25',
                   clicks: '10',
                   spent: '126.82',
-                  conversions: '-',
+                  conversions: '0',
                 },
             },
             {
@@ -8823,7 +6864,7 @@ export const data = {
                       impressions: '25',
                       clicks: '10',
                       spent: '126.82',
-                      conversions: '-',
+                      conversions: '0',
                     },
                 },
                 {
@@ -8852,7 +6893,7 @@ export const data = {
                 impressions: '25',
                 clicks: '10',
                 spent: '126.82',
-                conversions: '-',
+                conversions: '0',
               },
           },
           {
@@ -8869,8 +6910,8 @@ export const data = {
       },
     },
   },
-  keywords_count: 95,
-  created_at: '2021-09-19T09:49:57.000000Z',
-  updated_at: '2021-09-19T09:49:57.000000Z',
+  keywords_count: 96,
+  created_at: '2021-09-27T08:58:07.000000Z',
+  updated_at: '2021-09-27T08:58:07.000000Z',
   user_id: 2,
 };
