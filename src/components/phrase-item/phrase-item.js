@@ -18,6 +18,7 @@ export default function PhraseItem({ item, data }) {
           type='checkbox'
           checked={isSelected}
           onChange={toggleSelected}
+          onClick={toggleSelected}
         />
         <div className={styles.statistics_wrapper}>
 

@@ -9,8 +9,12 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
   const [isGroupEnabled, setIsGroupEnabled] = useState(true);
   const [isExpanded, setIsExpanded] = useState(false);
   const [keywordData, setKeywordData] = useState(null);
+  const [selectedOptions, setSelectedOptions] = useState({
+    [upperLevelKeyword]: null,
+  });
 
-  const toggleSelected = () => {
+  const toggleSelected = (e) => {
+    e.stopPropagation();
     setIsSelected((prevState) => !prevState);
   };
   const toggleGroup = () => {
@@ -19,6 +23,18 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
   const toggleExpansion = () => {
     setIsExpanded((prevState) => !prevState);
   };
+  const handleSelection = ({ from }) => {
+    setSelectedOptions({ [upperLevelKeyword]: keywordData.wordsInPhrase });
+    if (from === 'lemma' && !selectedOptions[upperLevelKeyword]) {
+      setSelectedOptions({ [upperLevelKeyword]: keywordData.wordsInPhrase });
+    } else if (from === 'lemma') {
+      setSelectedOptions({ [upperLevelKeyword]: null });
+    }
+  };
+
+  useEffect(() => {
+    console.log(selectedOptions);
+  }, [selectedOptions]);
   useEffect(() => {
     const final = {
       keywordPhrase: [],
@@ -98,62 +114,86 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
         // final.wordsInPhrase.push(final.keywordPhrase[finalItem])
       });
       setKeywordData(final);
-      console.log('fn', final, item);
     }
   }, [item]);
 
   return (
     <>
       {keywordData ? (
-        <div className={styles.container}>
-          <div className={styles.info}>
-            <input
-              className={styles.checkbox}
-              type='checkbox'
-              checked={isSelected}
-              onChange={toggleSelected}
-            />
-            <p onClick={toggleExpansion} className={styles.label}>
-              {upperLevelKeyword}
-            </p>
-            <button
-              onClick={toggleGroup}
-              className={`${styles.group_button} ${
-                isGroupEnabled ? styles.flipped : ''
-              }`}
-            ></button>
-            <KeywordStatistics
-              data={{
-                ...keywordData.fileFields,
-                phraseCount: keywordData.phraseCount,
-              }}
-              //item={item}
-            />
-          </div>
-          {isExpanded ? (
+        <>
+          {Object.keys(keywordData.wordsInPhrase).length === 1 ? (
             <>
-              {isGroupEnabled ? (
-                <div className={styles.children_wrapper}>
-                  {Object.keys(keywordData.wordsInPhrase).map((key) => (
-                    <WordForm
-                      item={key}
-                      data={keywordData.wordsInPhrase[key]}
-                      upperLevelKeyword={upperLevelKeyword}
-                    />
-                  ))}
-                </div>
-              ) : (
-                <>
-                  {keywordData.keywordPhrase.map((phrase) => (
-                    <PhraseItem item={phrase} />
-                  ))}
-                </>
-              )}
+              {Object.keys(keywordData.wordsInPhrase).map((key, index) => (
+                <WordForm
+                  item={key}
+                  key={`${key} ${index}`}
+                  data={keywordData.wordsInPhrase[key]}
+                  upperLevelKeyword={upperLevelKeyword}
+                  onTop={true}
+                />
+              ))}
             </>
           ) : (
-            <></>
+            <>
+              <div onClick={toggleExpansion} className={styles.container}>
+                <div className={styles.info}>
+                  <input
+                    className={styles.checkbox}
+                    type='checkbox'
+                    defaultChecked={isSelected}
+                    onClick={toggleSelected}
+                  />
+                  <p  className={styles.label}>
+                    {upperLevelKeyword}
+                  </p>
+                  <button
+                    onClick={toggleGroup}
+                    className={`${styles.group_button} ${
+                      isGroupEnabled ? styles.flipped : ''
+                    }`}
+                  ></button>
+                  <KeywordStatistics
+                    data={{
+                      ...keywordData.fileFields,
+                      phraseCount: keywordData.phraseCount,
+                    }}
+                    //item={item}
+                  />
+                </div>
+                {isExpanded ? (
+                  <>
+                    {isGroupEnabled ? (
+                      <div className={styles.children_wrapper}>
+                        {Object.keys(keywordData.wordsInPhrase).map(
+                          (key, index) => (
+                            <WordForm
+                              item={key}
+                              key={`${key} ${index}`}
+                              data={keywordData.wordsInPhrase[key]}
+                              upperLevelKeyword={upperLevelKeyword}
+                              onTop={false}
+                            />
+                          )
+                        )}
+                      </div>
+                    ) : (
+                      <>
+                        {keywordData.keywordPhrase.map((phrase, index) => (
+                          <PhraseItem
+                            item={phrase}
+                            key={`${phrase} ${index}`}
+                          />
+                        ))}
+                      </>
+                    )}
+                  </>
+                ) : (
+                  <></>
+                )}
+              </div>
+            </>
           )}
-        </div>
+        </>
       ) : null}
     </>
   );

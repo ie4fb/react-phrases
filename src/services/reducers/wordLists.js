@@ -19,9 +19,17 @@ const wordLists = createSlice({
         },
         setSelectedList(state, action) {
             state.selectedList = action.payload
+        },
+        createList(state, action) {
+            state.lists = {...state.lists, [action.payload.listName] : action.payload.list}
+        },
+        addToList(state, action) {
+            const modifiedList = state.lists[action.payload.listName]
+            console.log(modifiedList)
         }
+        
     }
 })
 
-export const { setLists, setSelectedList } = wordLists.actions
+export const { setLists, setSelectedList, createList } = wordLists.actions
 export default wordLists.reducer
