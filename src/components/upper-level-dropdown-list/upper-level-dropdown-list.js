@@ -3,38 +3,40 @@ import { useState, useEffect } from 'react';
 import KeywordStatistics from '../phrase-statistics/phrase-statistics';
 import WordForm from '../word-form/word-form-item';
 import PhraseItem from '../phrase-item/phrase-item';
+import ListSelector from '../list-selector/list-selector';
 
 export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
   const [isSelected, setIsSelected] = useState(false);
   const [isGroupEnabled, setIsGroupEnabled] = useState(true);
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isListSelectorRequested, setIsListSelectorRequested] = useState(false);
   const [keywordData, setKeywordData] = useState(null);
-  const [selectedOptions, setSelectedOptions] = useState({
-    [upperLevelKeyword]: null,
-  });
+  const [dataToAdd, setDataToAdd] = useState(null);
+  const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
   const toggleSelected = (e) => {
     e.stopPropagation();
     setIsSelected((prevState) => !prevState);
   };
-  const toggleGroup = () => {
+  const toggleGroup = (e) => {
+    e.stopPropagation();
     setIsGroupEnabled((prevState) => !prevState);
   };
   const toggleExpansion = () => {
     setIsExpanded((prevState) => !prevState);
   };
-  const handleSelection = ({ from }) => {
-    setSelectedOptions({ [upperLevelKeyword]: keywordData.wordsInPhrase });
-    if (from === 'lemma' && !selectedOptions[upperLevelKeyword]) {
-      setSelectedOptions({ [upperLevelKeyword]: keywordData.wordsInPhrase });
-    } else if (from === 'lemma') {
-      setSelectedOptions({ [upperLevelKeyword]: null });
+  const handleAddAction = (e) => {
+    e.stopPropagation();
+    setCoordinates({ x: e.pageX, y: e.pageY });
+    if (isListSelectorRequested) {
+      setIsListSelectorRequested(false);
+      setDataToAdd(null);
+    } else {
+      setIsListSelectorRequested((prevState) => !prevState);
+      setDataToAdd({ [upperLevelKeyword]: item });
     }
   };
 
-  useEffect(() => {
-    console.log(selectedOptions);
-  }, [selectedOptions]);
   useEffect(() => {
     const final = {
       keywordPhrase: [],
@@ -54,9 +56,11 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
       middleLevelWords.forEach((middleLevelWord, index) => {
         stats[middleLevelWord] = {};
         item.wordsInPhrase[middleLevelWord].wordPhrases.forEach((item) => {
-          //     console.log(item);
-          stats[middleLevelWord][Object.keys(item)[0]] =
-            item[Object.keys(item)[0]];
+          stats[middleLevelWord][Object.keys(item)[0]] = {
+            ...item[Object.keys(item)[0]],
+            parent: middleLevelWord,
+          };
+          //console.log( stats[middleLevelWord][Object.keys(item)[0]])
         });
         stats[middleLevelWord].total = {
           impressions: 0,
@@ -76,16 +80,6 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
             stats[middleLevelWord].total.spent +=
               parseFloat(stats[middleLevelWord][key].spent) || 0;
           }
-          if (middleLevelWord === '!и') {
-            console.log(
-              'stats',
-              stats[middleLevelWord][key].conversions,
-              middleLevelWord,
-              key,
-              stats[middleLevelWord][key],
-              stats
-            );
-          }
         });
         final.wordsInPhrase[middleLevelWord] = {
           wordPhrases: item.wordsInPhrase[middleLevelWord].wordPhrases,
@@ -98,7 +92,6 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
         };
       });
       Object.keys(final.wordsInPhrase).forEach((finalItem) => {
-        console.log(final.wordsInPhrase[finalItem]);
         final.fileFields.impressions +=
           final.wordsInPhrase[finalItem].fileFields.impressions;
         final.fileFields.clicks +=
@@ -108,9 +101,14 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
         final.fileFields.conversions +=
           final.wordsInPhrase[finalItem].fileFields.conversions;
         final.phraseCount += final.wordsInPhrase[finalItem].wordPhrases.length;
-        final.wordsInPhrase[finalItem].wordPhrases.forEach((phrase) =>
-          final.keywordPhrase.push(phrase)
-        );
+        final.wordsInPhrase[finalItem].wordPhrases.forEach((phrase) => {
+          const modifiedPhrases = {[Object.keys(phrase)[0]]: {}}
+          Object.keys(phrase[Object.keys(phrase)[0]]).forEach((key) => {
+            modifiedPhrases[Object.keys(phrase)[0]][key] =   phrase[Object.keys(phrase)[0]][key]
+          })
+          modifiedPhrases[Object.keys(phrase)[0]].parent = finalItem;
+          final.keywordPhrase.push(modifiedPhrases);
+        });
         // final.wordsInPhrase.push(final.keywordPhrase[finalItem])
       });
       setKeywordData(final);
@@ -136,16 +134,18 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
           ) : (
             <>
               <div onClick={toggleExpansion} className={styles.container}>
-                <div className={styles.info}>
+                <div
+                  className={`${styles.info} ${
+                    isExpanded ? styles.info_expanded : ''
+                  }`}
+                >
                   <input
                     className={styles.checkbox}
                     type='checkbox'
                     defaultChecked={isSelected}
                     onClick={toggleSelected}
                   />
-                  <p  className={styles.label}>
-                    {upperLevelKeyword}
-                  </p>
+                  <p className={styles.label}>{upperLevelKeyword}</p>
                   <button
                     onClick={toggleGroup}
                     className={`${styles.group_button} ${
@@ -159,6 +159,18 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
                     }}
                     //item={item}
                   />
+                  <div className={styles.button_container}>
+                    <button onClick={handleAddAction} className={styles.button}>
+                      В список
+                    </button>
+                    {dataToAdd && (
+                      <ListSelector
+                        onClose={handleAddAction}
+                        data={dataToAdd}
+                        coordinates={coordinates}
+                      />
+                    )}
+                  </div>
                 </div>
                 {isExpanded ? (
                   <>
@@ -182,6 +194,8 @@ export default function UpperLevelDropdownList({ upperLevelKeyword, item }) {
                           <PhraseItem
                             item={phrase}
                             key={`${phrase} ${index}`}
+                            upperLevelKeyword={upperLevelKeyword}
+                            form={phrase[Object.keys(phrase)[0]].parent}
                           />
                         ))}
                       </>

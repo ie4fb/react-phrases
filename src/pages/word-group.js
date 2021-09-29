@@ -22,7 +22,6 @@ export default function WordGroup() {
   const inputRef = useRef();
 
   useEffect(() => {
-    console.log(lists);
     let options = [];
     if (lists) {
       Object.keys(lists).forEach((key) => {
@@ -38,10 +37,15 @@ export default function WordGroup() {
     }
   }, [lists]);
 
+  const handleListSelection = (selectedOption) => {
+    setSelectedOption(selectedOption);
+    store.dispatch(setSelectedList(selectedOption.value));
+  }
+
+  
+
   const onSubmit = (e) => {
-    store.dispatch(
-      createList({ listName: inputRef.current.value, list: {} })
-    );
+    store.dispatch(createList({ listName: inputRef.current.value, list: {} }));
     setListCreateRequested(false);
   };
 
@@ -57,7 +61,7 @@ export default function WordGroup() {
         {!!options && (
           <Select
             defaultValue={{ value: 'general', label: 'Неразобранные слова' }}
-            onChange={setSelectedOption}
+            onChange={handleListSelection}
             options={options}
             className={styles.selector}
           />
@@ -101,13 +105,17 @@ export default function WordGroup() {
       </div>
       {lists && selectedList && (
         <section className={styles.wordlist_container}>
-          {Object.keys(lists[selectedList]).map((key, index) => (
-            <UpperLevelDropdownList
-              key={`${key} ${index}`}
-              upperLevelKeyword={key}
-              item={lists[selectedList]?.[key]}
-            />
-          ))}
+          {Object.keys(lists[selectedList]).length !== 0 ? (
+            Object.keys(lists[selectedList]).map((key, index) => (
+              <UpperLevelDropdownList
+                key={`${key} ${index}`}
+                upperLevelKeyword={key}
+                item={lists[selectedList]?.[key]}
+              />
+            ))
+          ) : (
+            <p>Список пуст</p>
+          )}
         </section>
       )}
     </main>
