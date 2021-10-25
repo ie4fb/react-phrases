@@ -21,6 +21,9 @@ export default function WordGroup() {
   const [listCreateRequested, setListCreateRequested] = useState(false);
   const inputRef = useRef();
 
+  console.log(lists)
+
+  
   useEffect(() => {
     let options = [];
     if (lists) {

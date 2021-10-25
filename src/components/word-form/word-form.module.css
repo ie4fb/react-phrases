@@ -9,8 +9,13 @@
     box-shadow: 0px 0px 0px 0px rgb(253, 237, 146);
     transition: all 0.2s ease-in-out;
     margin: 12px 0 0 0;
-    overflow-y: auto;
 
+
+}
+.container_expanded {
+    height: 100%;
+    overflow-y: auto;
+    min-height: 250px;
 }
 .container_onTop {
     margin: 0 0 16px 0;
@@ -54,6 +59,8 @@
 }
 
 .checkbox {
+    min-width: 20px;
+    min-height: 20px;
     width: 20px;
     height: 20px;
     margin: 0 16px 0 0;

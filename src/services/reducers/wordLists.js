@@ -12,6 +12,7 @@ const wordLists = createSlice({
   initialState,
   reducers: {
     setLists(state, action) {
+      console.log(action)
       state.lists = action.payload.body;
       state.name = action.payload.name;
       state.projectId = action.payload.id;
@@ -26,19 +27,24 @@ const wordLists = createSlice({
       };
     },
     addToList(state, action) {
+      //Перебираем леммы
       Object.keys(action.payload.data).forEach((key) => {
         if (state.lists[action.payload.list][key]) {
+          //Перебираем словоформы внутри леммы
           Object.keys(action.payload.data[key].wordsInPhrase).forEach(
             (secondLevelKey) => {
+             //Если словоформа есть - идем глубже
               if (
                 state.lists[action.payload.list][key].wordsInPhrase[
                   secondLevelKey
                 ]
               ) {
+                //Перебираем фразы внутри словоформы
                 action.payload.data[key].wordsInPhrase[
                   secondLevelKey
                 ].wordPhrases.forEach((phraseItem) => {
                   const phrase = Object.keys(phraseItem)[0];
+                  //Если undefined - пушим отсуствующую фразу в массив с фразами внутри словоформы
                   if (
                     !state.lists[action.payload.list][key].wordsInPhrase[
                       Object.keys(
@@ -55,6 +61,7 @@ const wordLists = createSlice({
                     ].wordPhrases.push(phraseItem);
                   }
                 });
+            //создаем новую словоформу в стейте, если не нашли раньше
               } else {
                 state.lists[action.payload.list][key].wordsInPhrase[
                   secondLevelKey
@@ -62,6 +69,7 @@ const wordLists = createSlice({
               }
             }
           );
+        // создаем лемму, если не нашли раньше
         } else {
           state.lists[action.payload.list][key] = action.payload.data[key];
         }

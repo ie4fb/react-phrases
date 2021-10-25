@@ -39,7 +39,7 @@ export default function WordForm({ upperLevelKeyword, item, data, onTop }) {
   return (
     <div
       onClick={toggleExpansion}
-      className={`${styles.container} ${onTop ? styles.container_onTop : ''}`}
+      className={`${styles.container} ${isExpanded? styles.container_expanded: ''} ${onTop ? styles.container_onTop : ''}`}
     >
       <div
         className={`${styles.info} ${isExpanded ? styles.info_expanded : ''}`}
@@ -50,9 +50,9 @@ export default function WordForm({ upperLevelKeyword, item, data, onTop }) {
           defaultChecked={isSelected}
           onClick={toggleSelected}
         />
-        <p className={styles.label}>{item}</p>
+        <p className={styles.label}>{item.wordForm}</p>
         <KeywordStatistics
-          data={{ ...data.fileFields, phraseCount: data.wordPhrases.length }}
+          data={data}
         />
         <div className={styles.button_container}>
           <button onClick={handleAddAction} className={styles.button}>
@@ -67,7 +67,7 @@ export default function WordForm({ upperLevelKeyword, item, data, onTop }) {
       {isExpanded ? (
         <div className={styles.children_wrapper}>
           {' '}
-          {data.wordPhrases.map((phrase, index) => (
+          {item.phrases.map((phrase, index) => (
             <PhraseItem
               key={`${phrase} ${index}`}
               item={phrase}
